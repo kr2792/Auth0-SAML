@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Auth0Provider } from "@auth0/auth0-react";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Auth0Provider
+      domain="sibbolethidpttest.eu.auth0.com"
+      clientId="GeEJbo6xaxBVQCL9UI0v8wHFxLBS4hCz"
+      redirectUri='http://jwt.io'
+      // audience='urn:auth0:sibbolethidpttest:IdProvider'
+      responseType='token'
+      params={{scope: 'openid'}}
+    >
+      <App />
+    </Auth0Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
