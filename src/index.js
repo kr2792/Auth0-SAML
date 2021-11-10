@@ -13,7 +13,7 @@ ReactDOM.render(
       redirectUri={window.location.origin}
       // audience='urn:auth0:sibbolethidpttest:IdProvider'
       responseType='token'
-      params={{scope: 'openid'}}
+      // params={{scope: 'openid'}}
     >
       <App />
     </Auth0Provider>
