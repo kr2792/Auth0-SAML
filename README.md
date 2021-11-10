@@ -52,3 +52,7 @@ The metadata for this  [configuration](https://shiboleth-test.eu.auth0.com/samlp
 Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
 
 You can now login with SAML in your project.
+
+##
+Links to Auth0 documentation & tutorials:
+https://auth0.com/docs/configure/saml-configuration/configure-auth0-saml-service-provider
