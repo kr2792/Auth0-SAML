@@ -56,3 +56,4 @@ You can now login with SAML in your project.
 ##
 Links to Auth0 documentation & tutorials:
 https://auth0.com/docs/configure/saml-configuration/configure-auth0-saml-service-provider
+https://auth0.com/docs/configure/saml-configuration/configure-auth0-as-service-and-identity-provider
