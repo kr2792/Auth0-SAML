@@ -16,7 +16,7 @@ First sign in or sign up to https://auth0.com/. Then create an Auth0 tenant
 Go to **Applications** > **Applications**, and press *Create Application*. Give it a fitting name and select the type you want to use. This project uses *Single Page Web Application*. 
 
 
-Press **Settings** and copy the domain and client id as it will be used in your project. Add your site url e.g. http://localhost:3000 to **Allowed Callback URLs** which makes it possible for Auth0 to rediret you back to the site after logging in. If you have downloaded this project, then access it in your code editor, and create an env.local file, where you add *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. These two variables are used in the Auth0provider which can be seen in the index.js file.
+Press **Settings** and copy the domain and client id as it will be used in your project. Add your site url e.g. http://localhost:3000 to **Allowed Callback URLs** which makes it possible for Auth0 to rediret you back to the site after login. If you have downloaded this project, then access it in your code editor, and create an env.local file, where you add *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. These two variables are used in the Auth0provider which can be seen in the index.js file.
 
 ## SAML configuration
 
@@ -47,7 +47,7 @@ The metadata can viewed or downloaded at https://TENANT_NAME/samlp/metadata?conn
 
 The metadata for this  [configuration](https://shiboleth-test.eu.auth0.com/samlp/metadata?connection=Shibboleth-test).
 
-## Loggin in with SAML enterprise
+## Login with SAML enterprise
 
 Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
 
