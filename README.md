@@ -1,5 +1,5 @@
 # shibboleth-test
-Auth0 SAML configuration
+Auth0 SAML configuration. Download project, run yarn to install node packages, then run yarn start of start the program. 
 
 
 ## Create Auth0 Tenant
