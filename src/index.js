@@ -8,12 +8,9 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.render(
   <React.StrictMode>
     <Auth0Provider
-      domain="shiboleth-test.eu.auth0.com"
-      clientId="QjDF7fwF2HfTd6RSpGmnWcyuLxXYWBps"
+      domain={process.env.REACT_APP_AUTH0_DOMAIN}
+      clientId={process.env.REACT_APP_AUTH0_CLIENT_ID}
       redirectUri={window.location.origin}
-      // audience='urn:auth0:sibbolethidpttest:IdProvider'
-      responseType='token'
-      // params={{scope: 'openid'}}
     >
       <App />
     </Auth0Provider>
