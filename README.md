@@ -27,15 +27,28 @@ You'll now be able to change settings to for this connection. Give it a fitting 
 
 Give it a sign in url then enable signout out and add the signout url. Scroll to the bottom and press save.
 
+Now scroll back up and press *Login experience*
+![image](https://user-images.githubusercontent.com/18439722/141130456-828d795e-08c2-49b1-9e72-04151134659b.png)
+
+Scroll to the botton and toggle *Display connection as a button*, and give the button an approproate name.
+
 ### Auth0 SP metadata
 Go to the top of the settings page for the SAMl enterpise configurion and press setup.
 
 ![image](https://user-images.githubusercontent.com/18439722/141117620-7ed7cfcd-7c7f-467f-ac33-be06feb058b2.png)
 
-Go the url that's located there.
+Go the url that's located there, and oy'll be directed to a page that looks like this:
+![image](https://user-images.githubusercontent.com/18439722/141124945-99e927ca-5c5c-4487-b0b3-a018eedcf63a.png)
+
 
 This page contains urls and metadata that the IDP requires, so that this SAMl configuration can registered.
 
 The metadata can viewed or downloaded at https://TENANT_NAME/samlp/metadata?connection=YOUR_CONNECTION_NAME. *YOU_CONNECTION_NAME* is the identifier you gave the SAML enterprise configuration.
 
-The metadata for this  [configuration](https://shiboleth-test.eu.auth0.com/samlp/metadata?connection=Shibboleth-test)
+The metadata for this  [configuration](https://shiboleth-test.eu.auth0.com/samlp/metadata?connection=Shibboleth-test).
+
+## Loggin in with SAML enterprise
+
+Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
+
+You can now login with SAML in your project.
