@@ -19,7 +19,7 @@ First sign in or sign up to https://auth0.com/. Then create an Auth0 tenant that
 Go to **Applications** > **Applications**, and press *Create Application*. Give it a fitting name and select the type you want to use. This project uses *Single Page Web Application*. 
 
 
-Press **Settings** and copy the domain and client id as it will be used in your project. Add your site url e.g. http://localhost:3000 to **Allowed Callback URLs** which makes it possible for Auth0 to rediret you back to the site after login. If you have downloaded this project, then access it in your code editor, and create an env.local file, where you add *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. These two variables are used in the Auth0Provider which can be seen in the index.js file. Auth0 will fail if *redirectUri* is not in the **Allowed Callback URLs** field.
+Press **Settings** and copy the domain and client id as it will be used in your project. Add your site url e.g. http://localhost:3000 to **Allowed Callback URLs** which makes it possible for Auth0 to rediret you back to the site after login. If you have downloaded this project, then access it in your code editor, and create an env.local file, where you add *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. These two variables are used in the Auth0Provider which can be seen in the [index.js](https://github.com/kr2792/shibboleth-test/blob/main/src/index.js#L10) file. Auth0 will fail if *redirectUri* is not in the **Allowed Callback URLs** field.
 
 ## SAML configuration
 
@@ -28,7 +28,7 @@ Go to **Authentication** > **Enterprise** and press the add button for SAML.
 
 You'll now be able to change settings to for this connection. Give it a fitting identifier. 
 
-Leave the sing in and sign out fields empty for now, as we'll have to create an ID provider with those fields. Scroll to the bottom and press save.
+Leave the sign in field with a temporary placeholder and sign out field empty for now, as we'll have to create an Auth0 tenant ID provider which will have those value. Scroll to the bottom and press save.
 
 Now scroll back up and press *Login experience*
 ![image](https://user-images.githubusercontent.com/18439722/141130456-828d795e-08c2-49b1-9e72-04151134659b.png)
