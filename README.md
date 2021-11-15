@@ -33,15 +33,6 @@ Press *Certificates* then *Download* certificate and select *pem*.
 Then go to *Endpoints* and copy the SAML protocol url.
 ![image](https://user-images.githubusercontent.com/18439722/141766097-b8ec4c1d-809e-46e8-9795-967c6da2b32c.png)
 
-Press the **Addons** tab.
-
-![image](https://user-images.githubusercontent.com/18439722/141768900-45bb45f8-6ce9-4d3b-a7e6-2b70531b6cfd.png)
-
-Press **Settings**
-
-![image](https://user-images.githubusercontent.com/18439722/141769568-7e68e0e5-7589-4066-b022-4941e15aee6d.png)
-Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner.
-
 Switch tenant to the Service Provider
 
 ![image](https://user-images.githubusercontent.com/18439722/141766684-0248f240-fc8a-4f24-8cc0-a2d01d54932c.png)
@@ -74,6 +65,16 @@ This page contains urls and metadata that the IDP requires, so that this SAML co
 The metadata can viewed or downloaded at https://TENANT_NAME/samlp/metadata?connection=YOUR_CONNECTION_NAME. *YOUR_CONNECTION_NAME* is the identifier you gave the SAML enterprise configuration.
 
 Copy *post-back URL* and *Entity Id* fields
+
+Switch to your ID Provier tenant, press **Applications > applications** and select the app you configered before.  
+Press the **Addons** tab.
+
+![image](https://user-images.githubusercontent.com/18439722/141768900-45bb45f8-6ce9-4d3b-a7e6-2b70531b6cfd.png)
+
+Press **Settings**
+
+![image](https://user-images.githubusercontent.com/18439722/141769568-7e68e0e5-7589-4066-b022-4941e15aee6d.png)
+Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner.
 
 The metadata for this  [configuration](https://shiboleth-test.eu.auth0.com/samlp/metadata?connection=Shibboleth-test).
 
