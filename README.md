@@ -1,5 +1,5 @@
 # shibboleth-test
-Auth0 SAML configuration. Download project, run *yarn* to install node packages, then run *yarn start* to start the program. 
+Auth0 SAML configuration. Download project, run *yarn* to install node packages. You'll have to create an env.local file with variables called *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. You need to leave then undefined, as they required values from the service provider Auth0.
 
 
 ## Create Auth0 Tenant
