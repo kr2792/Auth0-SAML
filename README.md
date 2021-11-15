@@ -3,7 +3,7 @@ Auth0 SAML configuration. Download project, run *yarn* to install node packages,
 
 
 ## Create Auth0 Tenant
-First sign in or sign up to https://auth0.com/. Then create an Auth0 tenant
+First sign in or sign up to https://auth0.com/. Then create an Auth0 tenant that will act as a service provider.
 
 
 ![image](https://user-images.githubusercontent.com/18439722/141102820-a6ac381d-7592-4769-ae07-cbb2b2739acb.png)
@@ -37,7 +37,7 @@ Go to the top of the settings page for the SAMl enterpise configurion and press 
 
 ![image](https://user-images.githubusercontent.com/18439722/141117620-7ed7cfcd-7c7f-467f-ac33-be06feb058b2.png)
 
-Go the url that's located there, and oy'll be directed to a page that looks like this:
+Go the url that's located there, and you'll be directed to a page that looks like this:
 ![image](https://user-images.githubusercontent.com/18439722/141124945-99e927ca-5c5c-4487-b0b3-a018eedcf63a.png)
 
 
