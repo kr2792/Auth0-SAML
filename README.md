@@ -2,7 +2,7 @@
 This configurations uses React but Auth0 also supports other frameworks such a Angular or Vue.
 
 ## Starting project
-Clone the repository, run *yarn* to install node packages. You'll have to create an env.local file with variables called *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. You need to leave them undefined, as their required values come from the service provider Auth0 tent which you haven't made yet.
+Clone the repository, run *yarn* to install node packages. You'll have to create an env.local file with variables called *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. You need to leave them undefined, as their required values come from the service provider Auth0 tenant which you haven't made yet.
 
 
 ## Create Auth0 Tenant
@@ -19,21 +19,21 @@ First sign in or sign up to https://auth0.com/. Then create an Auth0 tenant that
 Go to **Applications** > **Applications**, and press *Create Application*. Give it a fitting name and select the type you want to use. This project uses *Single Page Web Application*. 
 
 
-Press **Settings** and copy the domain and client id as it will be used in your project. Add your site url e.g. http://localhost:3000 to **Allowed Callback URLs** and **Allowed Logout URLs** which makes it possible for Auth0 to rediret you back to the site after login/logout. If you have downloaded this project, then access it in your code editor, and create an env.local file, where you add *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. These two variables are used in the Auth0Provider which can be seen in the [index.js](https://github.com/kr2792/shibboleth-test/blob/main/src/index.js#L10) file. Auth0 will fail if *redirectUri* is not in the **Allowed Callback URLs** field.
+Press **Settings** and copy the domain and client id as it will be used in your project. Add your site url e.g. http://localhost:3000 to **Allowed Callback URLs** and **Allowed Logout URLs** which makes it possible for Auth0 to redirect you back to the site after login/logout. If you have downloaded this project, then access it in your code editor, and create an env.local file, where you add *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. These two variables are used in the Auth0Provider which can be seen in the [index.js](https://github.com/kr2792/shibboleth-test/blob/main/src/index.js#L10) file. Auth0 will fail if *redirectUri* is not in the **Allowed Callback URLs** field.
 
 
 ## Creating the ID provider
-Create a new tentant again, then either create a new application or use the default one.
+Create a new tenant again, then either create a new application or use the default one.
 
 Go to the settings tab, and scroll to *Advanced settings*
 ![image](https://user-images.githubusercontent.com/18439722/141764829-0920b1f8-5678-4e69-b377-9a47c920f2a6.png)
 
-Press *Certificates* then *Download* certificate and select *pem*.
+Press *Certificates* then *Download certificate* and select *pem*.
 
 Then go to *Endpoints* and copy the SAML protocol url.
 ![image](https://user-images.githubusercontent.com/18439722/141766097-b8ec4c1d-809e-46e8-9795-967c6da2b32c.png)
 
-Switch tenant to the Service Provider
+Switch to the Service Provider tenant.
 
 ![image](https://user-images.githubusercontent.com/18439722/141766684-0248f240-fc8a-4f24-8cc0-a2d01d54932c.png)
 
@@ -50,7 +50,7 @@ Give it a fitting identifier and paste the copied url in **Sign In URL** and **S
 Now scroll back up and press *Login experience*
 ![image](https://user-images.githubusercontent.com/18439722/141130456-828d795e-08c2-49b1-9e72-04151134659b.png)
 
-Scroll to the botton and toggle *Display connection as a button*, and give the button an appropriate name.
+Scroll to the botton in the new view and toggle *Display connection as a button*. You can also add a descriptive text e.g. "Login with SAML".
 
 ### Auth0 SP metadata
 Go to the top of the settings page for the SAMl enterpise configuration and press setup.
@@ -60,7 +60,7 @@ Go to the top of the settings page for the SAMl enterpise configuration and pres
 Go the url that's located there, and you'll be directed to a page that looks like this:
 ![image](https://user-images.githubusercontent.com/18439722/141124945-99e927ca-5c5c-4487-b0b3-a018eedcf63a.png)
 
-This page contains urls and metadata that the IDP requires, so that this SAML configuration can be registered.
+This page contains urls and metadata that the IDP requires, so that this SAML configuration can be registered with it.
 
 Copy *post-back URL* and *Entity Id* fields
 
@@ -79,6 +79,7 @@ Go back to **Appilications** > **Applications**, select the project you created,
 
 
 You can now login with SAML in your project.
+![image](https://user-images.githubusercontent.com/18439722/141794724-4073ec43-6de3-44fd-95bf-c563a029fa6b.png)
 
 
 ##
