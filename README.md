@@ -62,8 +62,6 @@ Go the url that's located there, and you'll be directed to a page that looks lik
 
 This page contains urls and metadata that the IDP requires, so that this SAML configuration can be registered.
 
-The metadata can viewed or downloaded at https://TENANT_NAME/samlp/metadata?connection=YOUR_CONNECTION_NAME. *YOUR_CONNECTION_NAME* is the identifier you gave the SAML enterprise configuration.
-
 Copy *post-back URL* and *Entity Id* fields
 
 Switch to your ID Provier tenant, press **Applications > applications** and select the app you configered before.  
@@ -74,9 +72,8 @@ Press the **Addons** tab.
 Press **Settings**
 
 ![image](https://user-images.githubusercontent.com/18439722/141769568-7e68e0e5-7589-4066-b022-4941e15aee6d.png)
-Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner.
+Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner. The page might redirect you to a different page, but you can just press back in the browser, and you'll return to the metadata page, where the right tenant is selected.
 
-The metadata for this  [configuration](https://shiboleth-test.eu.auth0.com/samlp/metadata?connection=Shibboleth-test).
 
 Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
 
