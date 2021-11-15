@@ -25,7 +25,7 @@ Go to **Authentication** > **Enterprise** and press the add button for SAML.
 
 You'll now be able to change settings to for this connection. Give it a fitting identifier. 
 
-Give it a sign in url then enable signout out and add the signout url. Scroll to the bottom and press save.
+Leave the sing in and sign out fields empty for now, as we'll have to create an ID provider with those fields. Scroll to the bottom and press save.
 
 Now scroll back up and press *Login experience*
 ![image](https://user-images.githubusercontent.com/18439722/141130456-828d795e-08c2-49b1-9e72-04151134659b.png)
@@ -43,10 +43,27 @@ Go the url that's located there, and you'll be directed to a page that looks lik
 
 This page contains urls and metadata that the IDP requires, so that this SAMl configuration can registered.
 
-The metadata can viewed or downloaded at https://TENANT_NAME/samlp/metadata?connection=YOUR_CONNECTION_NAME. *YOU_CONNECTION_NAME* is the identifier you gave the SAML enterprise configuration.
+The metadata can viewed or downloaded at https://TENANT_NAME/samlp/metadata?connection=YOUR_CONNECTION_NAME. *YOUR_CONNECTION_NAME* is the identifier you gave the SAML enterprise configuration.
 
 The metadata for this  [configuration](https://shiboleth-test.eu.auth0.com/samlp/metadata?connection=Shibboleth-test).
 
+## Creating the ID provider
+Create a new tentant again, then either create a new application or use the default one.
+
+Go to the settings tab, and scroll to *Advanced settings*
+![image](https://user-images.githubusercontent.com/18439722/141764829-0920b1f8-5678-4e69-b377-9a47c920f2a6.png)
+
+Press *Certificates* then *Download* certificate and select *pem*.
+
+Then go to *Endpoints* and copy the SAML protocol url.
+![image](https://user-images.githubusercontent.com/18439722/141766097-b8ec4c1d-809e-46e8-9795-967c6da2b32c.png)
+
+Change tenant to the Serve Provider
+![image](https://user-images.githubusercontent.com/18439722/141766684-0248f240-fc8a-4f24-8cc0-a2d01d54932c.png)
+
+And go back to your newly enterprise login which you do by pressing **Authentication > Enterprise > SAML** and then the SAMl you have created there.
+
+Paste the copied url in **Sign In URL** and **Sign Out URL**, then add the downloaded certificate in **X509 Signing Certificate**
 ## Login with SAML enterprise
 
 Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
