@@ -58,7 +58,15 @@ Press *Certificates* then *Download* certificate and select *pem*.
 Then go to *Endpoints* and copy the SAML protocol url.
 ![image](https://user-images.githubusercontent.com/18439722/141766097-b8ec4c1d-809e-46e8-9795-967c6da2b32c.png)
 
+Now change the tab to **Addons**
+
+![image](https://user-images.githubusercontent.com/18439722/141768900-45bb45f8-6ce9-4d3b-a7e6-2b70531b6cfd.png)
+
+Press **Settings**
+![image](https://user-images.githubusercontent.com/18439722/141769568-7e68e0e5-7589-4066-b022-4941e15aee6d.png)
+Delete the code in the windows except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner.
 Change tenant to the Serve Provider
+
 ![image](https://user-images.githubusercontent.com/18439722/141766684-0248f240-fc8a-4f24-8cc0-a2d01d54932c.png)
 
 And go back to your newly enterprise login which you do by pressing **Authentication > Enterprise > SAML** and then the SAMl you have created there.
