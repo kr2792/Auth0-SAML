@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Shibboleth Test</h1>
+        <h1>Auth0 Test</h1>
         {isAuthenticated ? <div>
           <p>{user.email}</p>
           <button onClick={() => logout()}>logout</button>
