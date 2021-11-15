@@ -81,6 +81,9 @@ Go back to **Appilications** > **Applications**, select the project you created,
 You can now login with SAML in your project.
 ![image](https://user-images.githubusercontent.com/18439722/141794724-4073ec43-6de3-44fd-95bf-c563a029fa6b.png)
 
+## Logout
+
+Logging out for SAML is a bit different in Auth0 fro other than other configurations e.g. Google social login, so it needs some further [configuration](https://auth0.com/docs/login/logout/log-users-out-of-saml-idps).
 
 ##
 Links to Auth0 documentation & tutorials:
