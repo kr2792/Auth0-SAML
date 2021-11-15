@@ -26,17 +26,17 @@ Press **Settings** and copy the domain and client id as it will be used in your 
 Go to **Authentication** > **Enterprise** and press the add button for SAML.
 ![image](https://user-images.githubusercontent.com/18439722/141107503-91957e57-01d1-4720-bb5d-885a813ea281.png)
 
-You'll now be able to change settings to for this connection. Give it a fitting identifier. 
+You'll now be able to change settings to for this connection. 
 
-Leave the sign in field with a temporary placeholder and sign out field empty for now, as we'll have to create an Auth0 tenant ID provider which will have those value. Scroll to the bottom and press save.
+Give it a fitting identifier and leave the sign in field with a temporary placeholder and sign out field empty for now, as we'll have to create an Auth0 tenant ID provider which will have those value. Scroll to the bottom and press save.
 
 Now scroll back up and press *Login experience*
 ![image](https://user-images.githubusercontent.com/18439722/141130456-828d795e-08c2-49b1-9e72-04151134659b.png)
 
-Scroll to the botton and toggle *Display connection as a button*, and give the button an approproate name.
+Scroll to the botton and toggle *Display connection as a button*, and give the button an appropriate name.
 
 ### Auth0 SP metadata
-Go to the top of the settings page for the SAMl enterpise configurion and press setup.
+Go to the top of the settings page for the SAMl enterpise configuration and press setup.
 
 ![image](https://user-images.githubusercontent.com/18439722/141117620-7ed7cfcd-7c7f-467f-ac33-be06feb058b2.png)
 
@@ -44,7 +44,7 @@ Go the url that's located there, and you'll be directed to a page that looks lik
 ![image](https://user-images.githubusercontent.com/18439722/141124945-99e927ca-5c5c-4487-b0b3-a018eedcf63a.png)
 
 
-This page contains urls and metadata that the IDP requires, so that this SAMl configuration can registered.
+This page contains urls and metadata that the IDP requires, so that this SAML configuration can be registered.
 
 The metadata can viewed or downloaded at https://TENANT_NAME/samlp/metadata?connection=YOUR_CONNECTION_NAME. *YOUR_CONNECTION_NAME* is the identifier you gave the SAML enterprise configuration.
 
@@ -61,15 +61,16 @@ Press *Certificates* then *Download* certificate and select *pem*.
 Then go to *Endpoints* and copy the SAML protocol url.
 ![image](https://user-images.githubusercontent.com/18439722/141766097-b8ec4c1d-809e-46e8-9795-967c6da2b32c.png)
 
-Now change the tab to **Addons**
+Press the **Addons** tab.
 
 ![image](https://user-images.githubusercontent.com/18439722/141768900-45bb45f8-6ce9-4d3b-a7e6-2b70531b6cfd.png)
 
 Press **Settings**
+
 ![image](https://user-images.githubusercontent.com/18439722/141769568-7e68e0e5-7589-4066-b022-4941e15aee6d.png)
 Delete the code in the windows except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner.
 
-Change tenant to the Serve Provider
+Switch tenant to the Serve Provider
 
 ![image](https://user-images.githubusercontent.com/18439722/141766684-0248f240-fc8a-4f24-8cc0-a2d01d54932c.png)
 
