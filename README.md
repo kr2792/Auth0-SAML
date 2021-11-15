@@ -1,8 +1,8 @@
 # shibboleth-test
-This configurations uses React but Auth0 also supports other SSO implementations such a Angular or Vue.
+This configurations uses React but Auth0 also supports other frameworks such a Angular or Vue.
 
 ## Starting project
-Clone repository, run *yarn* to install node packages. You'll have to create an env.local file with variables called *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. You need to leave them undefined, as their required values come from the service provider Auth0 tent which you haven't made yet.
+Clone the repository, run *yarn* to install node packages. You'll have to create an env.local file with variables called *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. You need to leave them undefined, as their required values come from the service provider Auth0 tent which you haven't made yet.
 
 
 ## Create Auth0 Tenant
@@ -68,13 +68,13 @@ Press the **Addons** tab.
 Press **Settings**
 
 ![image](https://user-images.githubusercontent.com/18439722/141769568-7e68e0e5-7589-4066-b022-4941e15aee6d.png)
-Delete the code in the windows except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner.
+Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner.
 
 Switch tenant to the Serve Provider
 
 ![image](https://user-images.githubusercontent.com/18439722/141766684-0248f240-fc8a-4f24-8cc0-a2d01d54932c.png)
 
-And go back to your newly enterprise login which you do by pressing **Authentication > Enterprise > SAML** and then the SAMl you have created there.
+And go back to your newly created enterprise login by pressing **Authentication > Enterprise > SAML** and then select the SAMl you have created.
 
 Paste the copied url in **Sign In URL** and **Sign Out URL**, then add the downloaded certificate in **X509 Signing Certificate**
 ## Login with SAML enterprise
@@ -82,6 +82,8 @@ Paste the copied url in **Sign In URL** and **Sign Out URL**, then add the downl
 Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
 
 You can now login with SAML in your project.
+
+
 
 Auth0 has a [tool](https://samltool.io/) that can can SAML.
 
