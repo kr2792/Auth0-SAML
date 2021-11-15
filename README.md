@@ -1,4 +1,4 @@
-# shibboleth-test
+# Auth0 SAML
 This configurations uses React but Auth0 also supports other frameworks such a Angular or Vue.
 
 ## Starting project
@@ -53,7 +53,7 @@ Now scroll back up and press *Login experience*
 Scroll to the botton in the new view and toggle *Display connection as a button*. You can also add a descriptive text e.g. "Login with SAML".
 
 ### Auth0 SP metadata
-Go to the top of the settings page for the SAMl enterpise configuration and press setup.
+Go to the top of the settings page for the SAML enterpise configuration and press setup.
 
 ![image](https://user-images.githubusercontent.com/18439722/141117620-7ed7cfcd-7c7f-467f-ac33-be06feb058b2.png)
 
