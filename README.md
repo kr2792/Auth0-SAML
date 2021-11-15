@@ -81,9 +81,8 @@ Go back to **Appilications** > **Applications**, select the project you created,
 You can now login with SAML in your project.
 
 
-Auth0 has a [tool](https://samltool.io/) that can can SAML.
-
 ##
 Links to Auth0 documentation & tutorials:
 https://auth0.com/docs/configure/saml-configuration/configure-auth0-saml-service-provider
 https://auth0.com/docs/configure/saml-configuration/configure-auth0-as-service-and-identity-provider
+Auth0 has a [tool](https://samltool.io/) that can decode SAML.
