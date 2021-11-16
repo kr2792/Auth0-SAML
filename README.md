@@ -1,5 +1,5 @@
 # Auth0 SAML
-This configurations uses React but Auth0 also supports other frameworks such a Angular or Vue. The React project uses a node package *@auth0/auth0-react"* which makes it possible to use Auth0 functions and objects like login, logout, isAuthenticated, and user. The entry points of the project e.g. index.js gets wrapped with an Auth0Provider from the same package with a set configuration which makes it posssible for us to the use the Athe previosly mentioned Auth0 functionalites in all of our project. 
+This configurations uses React but Auth0 also supports other frameworks such a Angular or Vue. The React project uses a node package *@auth0/auth0-react"* which makes it possible to use Auth0 functions and objects like login, logout, isAuthenticated, and user. The entry points of the project e.g. index.js gets wrapped with an Auth0Provider from the same package with a set configuration which makes it posssible for us to the use the previosly mentioned Auth0 functionalites in all of our project. 
 
 ## Starting project
 Clone the repository, run *yarn* to install node packages. You'll have to create an env.local file with variables called *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. You need to leave them undefined, as their required values come from the service provider Auth0 tenant which you haven't made yet.
