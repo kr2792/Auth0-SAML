@@ -30,7 +30,7 @@ Go to the settings tab, and scroll to *Advanced settings*
 
 Press *Certificates* then *Download certificate* and select *pem*.
 
-Then go to *Endpoints* and copy the SAML protocol url.
+Then scroll up again and press *Endpoints* and copy the SAML protocol url.
 ![image](https://user-images.githubusercontent.com/18439722/141766097-b8ec4c1d-809e-46e8-9795-967c6da2b32c.png)
 
 Switch to the Service Provider tenant.
