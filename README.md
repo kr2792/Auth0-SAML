@@ -45,7 +45,11 @@ Go to **Authentication** > **Enterprise** and press the add button for SAML.
 
 You'll now be able to change settings to for this connection. 
 
+![image](https://user-images.githubusercontent.com/18439722/141949579-1cfbf69d-0d27-4952-a1da-f46413e523e7.png)
+
+
 Give it a fitting identifier and paste the copied url in **Sign In URL** and **Sign Out URL**, then add the downloaded certificate in **X509 Signing Certificate**. Scroll to the bottom and press save.
+
 
 Now scroll back up and press *Login experience*
 ![image](https://user-images.githubusercontent.com/18439722/141130456-828d795e-08c2-49b1-9e72-04151134659b.png)
