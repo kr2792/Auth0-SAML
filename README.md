@@ -88,7 +88,7 @@ You can now login with SAML in your project.
 
 ## Logout
 
-Logging out for SAML is a bit different in Auth0 fro other than other configurations e.g. Google social login, so it needs some further [configuration](https://auth0.com/docs/login/logout/log-users-out-of-saml-idps).
+Logging out for SAML is a bit different in Auth0 fro other than other configurations e.g. Google social login, so it needs some further [configuration](https://auth0.com/docs/login/logout/log-users-out-of-saml-idps). This might be cause for why Auth0 keeps logging the same user in everytime. This issue can be mitigated by open site in an incognito tab.
 
 ##
 Links to Auth0 documentation & tutorials:
