@@ -56,6 +56,10 @@ Now scroll back up and press *Login experience*
 
 Scroll to the botton in the new view and toggle *Display connection as a button*. You can also add a descriptive text e.g. "Login with SAML".
 
+Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
+![image](https://user-images.githubusercontent.com/18439722/141951707-85b465a3-1452-4770-94c5-387bd0270894.png)
+
+
 ### Auth0 SP metadata
 Go to the top of the settings page for the SAML enterpise configuration and press setup.
 
@@ -68,7 +72,7 @@ This page contains urls and metadata that the IDP requires, so that this SAML co
 
 Copy *post-back URL* and *Entity Id* fields
 
-Switch to your ID Provier tenant, press **Applications > applications** and select the app you configered before.  
+Switch to your ID Provider tenant, press **Applications > applications** and select the app you configered before.  
 Press the **Addons** tab.
 
 ![image](https://user-images.githubusercontent.com/18439722/141768900-45bb45f8-6ce9-4d3b-a7e6-2b70531b6cfd.png)
@@ -76,10 +80,7 @@ Press the **Addons** tab.
 Press **Settings**
 
 ![image](https://user-images.githubusercontent.com/18439722/141769568-7e68e0e5-7589-4066-b022-4941e15aee6d.png)
-Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner. The page might redirect you to a different page, but you can just press back in the browser, and you'll return to the metadata page, where the right tenant is selected.
-
-
-Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
+Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner. The page might redirect you to a different page, but you can just press back in the browser, and you'll return to the metadata page with the right tenant is selected. The **conection_name** variable is the name of your enterprise connection.
 
 
 You can now login with SAML in your project.
