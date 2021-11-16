@@ -6,6 +6,8 @@ Clone the repository, run *yarn* to install node packages. You'll have to create
 
 
 ## Create Auth0 Tenant
+![image](https://user-images.githubusercontent.com/18439722/141959056-c64c3071-9188-4ffb-aa02-57227337c4cd.png)
+
 First sign in or sign up to https://auth0.com/. Then create an Auth0 tenant that will act as a service provider.
 
 
