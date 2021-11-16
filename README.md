@@ -1,11 +1,13 @@
 # Auth0 SAML
-This configurations uses React but Auth0 also supports other frameworks such a Angular or Vue.
+This configurations uses React but Auth0 also supports other frameworks such a Angular or Vue. The React project uses a node package *@auth0/auth0-react"* which makes it possible to use Auth0 functions and objects like login, logout, isAuthenticated, and user. The entry points of the project e.g. index.js gets wrapped with an Auth0Provider from the same package with a set configuration which makes it posssible for us to the use the previosly mentioned Auth0 functionalites in all of our project. 
 
 ## Starting project
 Clone the repository, run *yarn* to install node packages. You'll have to create an env.local file with variables called *REACT_APP_AUTH0_CLIENT_ID* and *REACT_APP_AUTH0_DOMAIN*. You need to leave them undefined, as their required values come from the service provider Auth0 tenant which you haven't made yet.
 
 
 ## Create Auth0 Tenant
+![image](https://user-images.githubusercontent.com/18439722/141959056-c64c3071-9188-4ffb-aa02-57227337c4cd.png)
+
 First sign in or sign up to https://auth0.com/. Then create an Auth0 tenant that will act as a service provider.
 
 
@@ -30,7 +32,7 @@ Go to the settings tab, and scroll to *Advanced settings*
 
 Press *Certificates* then *Download certificate* and select *pem*.
 
-Then go to *Endpoints* and copy the SAML protocol url.
+Then scroll up again and press *Endpoints* and copy the SAML protocol url.
 ![image](https://user-images.githubusercontent.com/18439722/141766097-b8ec4c1d-809e-46e8-9795-967c6da2b32c.png)
 
 Switch to the Service Provider tenant.
@@ -45,12 +47,20 @@ Go to **Authentication** > **Enterprise** and press the add button for SAML.
 
 You'll now be able to change settings to for this connection. 
 
+![image](https://user-images.githubusercontent.com/18439722/141949579-1cfbf69d-0d27-4952-a1da-f46413e523e7.png)
+
+
 Give it a fitting identifier and paste the copied url in **Sign In URL** and **Sign Out URL**, then add the downloaded certificate in **X509 Signing Certificate**. Scroll to the bottom and press save.
+
 
 Now scroll back up and press *Login experience*
 ![image](https://user-images.githubusercontent.com/18439722/141130456-828d795e-08c2-49b1-9e72-04151134659b.png)
 
 Scroll to the botton in the new view and toggle *Display connection as a button*. You can also add a descriptive text e.g. "Login with SAML".
+
+Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
+![image](https://user-images.githubusercontent.com/18439722/141951707-85b465a3-1452-4770-94c5-387bd0270894.png)
+
 
 ### Auth0 SP metadata
 Go to the top of the settings page for the SAML enterpise configuration and press setup.
@@ -64,7 +74,7 @@ This page contains urls and metadata that the IDP requires, so that this SAML co
 
 Copy *post-back URL* and *Entity Id* fields
 
-Switch to your ID Provier tenant, press **Applications > applications** and select the app you configered before.  
+Switch to your ID Provider tenant, press **Applications > applications** and select the app you configered before.  
 Press the **Addons** tab.
 
 ![image](https://user-images.githubusercontent.com/18439722/141768900-45bb45f8-6ce9-4d3b-a7e6-2b70531b6cfd.png)
@@ -72,15 +82,15 @@ Press the **Addons** tab.
 Press **Settings**
 
 ![image](https://user-images.githubusercontent.com/18439722/141769568-7e68e0e5-7589-4066-b022-4941e15aee6d.png)
-Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner. The page might redirect you to a different page, but you can just press back in the browser, and you'll return to the metadata page, where the right tenant is selected.
-
-
-Go back to **Appilications** > **Applications**, select the project you created, then press *conections* and toggle the SAML Enterprise option you've created.
+Delete the code in the settings window except for audience, and paste the entityId from the Service Provider. If you haven't copied it, then you can go back to https://auth0.com/docs/configure/saml-configuration/saml-identity-provider-configuration-settings, and change to the service provider tenant in the top right corner. The page might redirect you to a different page, but you can just press back in the browser, and you'll return to the metadata page with the right tenant is selected. The **conection_name** variable is the name of your enterprise connection.
 
 
 You can now login with SAML in your project.
 ![image](https://user-images.githubusercontent.com/18439722/141794724-4073ec43-6de3-44fd-95bf-c563a029fa6b.png)
 
+## Logout
+
+Logging out for SAML is a bit different in Auth0 fro other than other configurations e.g. Google social login, so it needs some further [configuration](https://auth0.com/docs/login/logout/log-users-out-of-saml-idps). This might be cause for why Auth0 keeps logging the same user in everytime. This issue can be mitigated by open site in an incognito tab.
 
 ##
 Links to Auth0 documentation & tutorials:
