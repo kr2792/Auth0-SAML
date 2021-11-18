@@ -1,3 +1,5 @@
+SAML tutorial markdown
+
 # Auth0 SAML
 This configurations uses React but Auth0 also supports other frameworks such a Angular or Vue. The React project uses a node package *@auth0/auth0-react"* which makes it possible to use Auth0 functions and objects like login, logout, isAuthenticated, and user. The entry points of the project e.g. index.js gets wrapped with an Auth0Provider from the same package with a set configuration which makes it posssible for us to the use the previosly mentioned Auth0 functionalites in all of our project. 
 
@@ -92,8 +94,23 @@ You can now login with SAML in your project.
 
 Logging out for SAML is a bit different in Auth0 fro other than other configurations e.g. Google social login, so it needs some further [configuration](https://auth0.com/docs/login/logout/log-users-out-of-saml-idps). This might be cause for why Auth0 keeps logging the same user in everytime. This issue can be mitigated by open site in an incognito tab.
 
-##
+
+## Decoding SAML Response
+
+Auth0 has a [tool](https://samltool.io/) that can decode SAML. Look at the network tab when logging in select the *callback?conection=YOUR_CONECTION*, copy the saml response in the bottom, and go the Auth0 tool and paste the SAML response there.
+
+![image](https://user-images.githubusercontent.com/18439722/141998757-22a58cd0-28c1-4cf2-94bb-c5407c18b4b0.png)
+
+## SAML Bindings
+![image](https://user-images.githubusercontent.com/18439722/142000194-86678256-7e8e-47e2-abb9-906df02c29c0.png)
+
+You can map SAML bindings like this for you enterprise configuration. *personalIdentityNumber* is a custom property for an user in the Auth0 IDP tenant
+
+![image](https://user-images.githubusercontent.com/18439722/142000529-4ae39969-b387-4559-ba02-eacf831e5567.png)
+
+
+## Links
 Links to Auth0 documentation & tutorials:
 https://auth0.com/docs/configure/saml-configuration/configure-auth0-saml-service-provider
 https://auth0.com/docs/configure/saml-configuration/configure-auth0-as-service-and-identity-provider
-Auth0 has a [tool](https://samltool.io/) that can decode SAML.
+
