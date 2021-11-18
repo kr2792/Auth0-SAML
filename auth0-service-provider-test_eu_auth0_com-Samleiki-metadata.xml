@@ -1,0 +1,29 @@
+<EntityDescriptor entityID="urn:auth0:auth0-service-provider-test:Samleiki" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDKzCCAhOgAwIBAgIJV3A03vTi7ZGgMA0GCSqGSIb3DQEBCwUAMDMxMTAvBgNVBAMTKGF1dGgwLXNlcnZpY2UtcHJvdmlkZXItdGVzdC5ldS5hdXRoMC5jb20wHhcNMjExMTE1MTIzNzIyWhcNMzUwNzI1MTIzNzIyWjAzMTEwLwYDVQQDEyhhdXRoMC1zZXJ2aWNlLXByb3ZpZGVyLXRlc3QuZXUuYXV0aDAuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA36SvSpDKBLDFWO/NFkq6u8KVZxO76WCvmL2bfC2feOC5edBjTCEevlrU/3FnWu5Wq6t2jbTTnugKAEe3QvkxSG78CB5ypj/degGqdY8JHqPbsK3D6FZ/TkjbrqmirX0sXPPMiy+R6lLxT2eqD7UpX/fjS/u8ONkUkHxoTU8SMBMImd2eamFWUtxPB4CiaPq1xeuaW+DohCPb5Oi37eN6un+bteHbMjrzrH47YhgdjA2C3muH4c0c81ksiK3BHJsV8gw0XCl3DpDcWgaW5T2SRW6cNEseGR+oGSMI4RBtXN4SoKnXULKn/tmt6e/bPvViKh2VUDUZuG22vcya4R2zoQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQYcWkJW8eBm1paDvdtPMvYQ1pGSDAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBACxKrhJs9N8VNO124XGjat/aYDpdyslPPWBX8JLAGj8vyOuTPzigtOBA9ZcvGUK0TBhOb5bgoE5rPsMjd44MqRG71+fFLSrWLQNGl6eyd5/+XKP4WCe2HCKDwGWRhgftm6XVUCUXOeS57rYGjQ5plY9X9fz/hTPGMimHzTNI1mrJpqdJKd7Sde0309aA0C5Erx5+xUb1C8hwaKH+cqNvnxeF+H2Rff9KSWTGEFbt8sc9VdIaVvPy9ymYUyeZBPXqn+JlBKI+r4r+8k02Waf0488QhPEFmsSM6lFpp3VPuQ1gseYAZGemSsNuqcgpRtyc6+PUkSGTSd+GB3Gaipe5aAw=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    
+    
+    <KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDKzCCAhOgAwIBAgIJV3A03vTi7ZGgMA0GCSqGSIb3DQEBCwUAMDMxMTAvBgNVBAMTKGF1dGgwLXNlcnZpY2UtcHJvdmlkZXItdGVzdC5ldS5hdXRoMC5jb20wHhcNMjExMTE1MTIzNzIyWhcNMzUwNzI1MTIzNzIyWjAzMTEwLwYDVQQDEyhhdXRoMC1zZXJ2aWNlLXByb3ZpZGVyLXRlc3QuZXUuYXV0aDAuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA36SvSpDKBLDFWO/NFkq6u8KVZxO76WCvmL2bfC2feOC5edBjTCEevlrU/3FnWu5Wq6t2jbTTnugKAEe3QvkxSG78CB5ypj/degGqdY8JHqPbsK3D6FZ/TkjbrqmirX0sXPPMiy+R6lLxT2eqD7UpX/fjS/u8ONkUkHxoTU8SMBMImd2eamFWUtxPB4CiaPq1xeuaW+DohCPb5Oi37eN6un+bteHbMjrzrH47YhgdjA2C3muH4c0c81ksiK3BHJsV8gw0XCl3DpDcWgaW5T2SRW6cNEseGR+oGSMI4RBtXN4SoKnXULKn/tmt6e/bPvViKh2VUDUZuG22vcya4R2zoQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQYcWkJW8eBm1paDvdtPMvYQ1pGSDAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBACxKrhJs9N8VNO124XGjat/aYDpdyslPPWBX8JLAGj8vyOuTPzigtOBA9ZcvGUK0TBhOb5bgoE5rPsMjd44MqRG71+fFLSrWLQNGl6eyd5/+XKP4WCe2HCKDwGWRhgftm6XVUCUXOeS57rYGjQ5plY9X9fz/hTPGMimHzTNI1mrJpqdJKd7Sde0309aA0C5Erx5+xUb1C8hwaKH+cqNvnxeF+H2Rff9KSWTGEFbt8sc9VdIaVvPy9ymYUyeZBPXqn+JlBKI+r4r+8k02Waf0488QhPEFmsSM6lFpp3VPuQ1gseYAZGemSsNuqcgpRtyc6+PUkSGTSd+GB3Gaipe5aAw=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth0-service-provider-test.eu.auth0.com/logout"/>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth0-service-provider-test.eu.auth0.com/logout"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth0-service-provider-test.eu.auth0.com/login/callback?connection=Samleiki" index="0" isDefault="true"/>
+  </SPSSODescriptor>
+</EntityDescriptor>

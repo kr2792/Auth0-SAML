@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><EntitiesDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="federation_root" cacheDuration="PT30M" validUntil="2030-08-17T10:04:48Z"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>LEIxpuY7WKRL+G6GclXKr0+zkj4x+JWOa/Dwt7e5EtQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Aoe1/b1Tk8wMkBEWTLvtFO1HR/9Jy2bpLGIdFJw54QiHXOZWk0jipxdo3422RVsAU1U0rBLJNMca
+wGISmz/0fOwAb0YnRkmez5PAZXPRW3nWyhKKePWpJSADOTDnYPl0g7qmUp4MlE5rC60K+9Rv/70K
+IzXc7Ak6daYmJN4ZBCWMt0Og8eHPxOspeMZvpzJyFU4dy8lV999RCaZH6aEJ9eke9Mf42SMNmgDV
+Zqz54xghYlZtDmmt8uu/viOofPcWiUKuCynmh19pR2AmsjiuxnYjFM1PZLu54yrze8Y5cWLQCoE6
+OxVOc2SlMDyxh5k9T3yiekdnLhKCshYrVWXOU9kpX7qoSoQFaVXHgv9nWVoMiZxtofKBTPKwfXGq
+3iQ1T+cQnusHN6flS06Vgpzs8eEv3Ks7ETAnI99I0JC6IMcq1Wz7VxzF4UhLwBPo3wipKIR/N0q/
+zmn1K/WLuX4pi3kNojymOLp4WmBe5t5kxwUGY1DfGpKxSBqUkXDwl9v6/CDquJRFKmHAJ4YJn5yk
+qw3yhQ4CPNQW4G5ek/zUPpMbxnuUAoOiyg8empy2eaxkDvLOXZFz9lsH6atXVlWgbQmTOvnQJD2k
+v2tsUNRQwmlcQFO53n6AR9F0ta8Zof7oxvWQgrgsCtEsBEarRBQAzrF/ldEw/j8IZS8jMvoCmCA=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+oOofXsoVa/xuPurDiei9W4z8GvKz+uQ1wJeEYRJUnvnUxtoa/eGmIESdWhs0XbcxTOqD3J5aulya
+5N2f1ZJHevbEaZVX4fK1Zc37D5WQR90bW9pVF5hbPESRl1Ie6exjY9P76UMQCyb+Lsrbu/J2h5fL
+RM0/UqjyzQZl9+MGseOz6oqzwzhwA9DVUQA/wWevvJccAJ33gkOasWLir4GJimBHvsU9qpaaP9eA
+h2LSENpoSJ8wqi6oBu27h8+7sV2mgn1jZGB9g7NvDBhCaM7CPHLTDZZmS+vDqP531PuFkPqMtU3M
+hje7L7XWAWTrXrywQY0aW1b2Qa5e9VWbNU4IcCWh1UvgxRMtZJjvQlMpXKdTk8ZTR8bgAhoOmHhS
+20Bxqd71kYMPA9oXn9EbL/WaEpRijYTYYKTTx/lQoteL1Oe/lHIsvzDQKZrGvUK24JnV6YMgkMhc
+8ar4grRoL/QIe/N0sVa5QFIhhlFkKDcJ9GE3bu8e+E4NUWFzcvj1DtL5gp6vK6vEuOJFSuItKzT3
+IWjX0mpf3/IQx9eujL00f5TUn+krBaNVgocvcH3tA3N6GMTcmVQrnNLnhASLyEg06guRJebxWKPG
+6TPoNKbcnGtJx6UqvtQds8w8CKWPzYsjdj8v4T2WUjrOI2opuCI39xsfiEPpEs5Y2UmrzcY0vkc=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFhjCCA24CCQDLAyifyyKcoTANBgkqhkiG9w0BAQUFADCBhDELMAkGA1UEBhMCRk8xCzAJBgNV
+BAgMAk5BMQswCQYDVQQHDAJOQTERMA8GA1UECgwIU2FtbGVpa2kxCzAJBgNVBAsMAk5BMRwwGgYD
+VQQDDBNNZXRhZGF0YSBTaWduZXIgRGV2MR0wGwYJKoZIhvcNAQkBFg50c0BzYW1sZWlraS5mbzAe
+Fw0xOTEwMDkxMDQ2MjdaFw0yMDEwMDgxMDQ2MjdaMIGEMQswCQYDVQQGEwJGTzELMAkGA1UECAwC
+TkExCzAJBgNVBAcMAk5BMREwDwYDVQQKDAhTYW1sZWlraTELMAkGA1UECwwCTkExHDAaBgNVBAMM
+E01ldGFkYXRhIFNpZ25lciBEZXYxHTAbBgkqhkiG9w0BCQEWDnRzQHNhbWxlaWtpLmZvMIICIjAN
+BgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoOofXsoVa/xuPurDiei9W4z8GvKz+uQ1wJeEYRJU
+nvnUxtoa/eGmIESdWhs0XbcxTOqD3J5aulya5N2f1ZJHevbEaZVX4fK1Zc37D5WQR90bW9pVF5hb
+PESRl1Ie6exjY9P76UMQCyb+Lsrbu/J2h5fLRM0/UqjyzQZl9+MGseOz6oqzwzhwA9DVUQA/wWev
+vJccAJ33gkOasWLir4GJimBHvsU9qpaaP9eAh2LSENpoSJ8wqi6oBu27h8+7sV2mgn1jZGB9g7Nv
+DBhCaM7CPHLTDZZmS+vDqP531PuFkPqMtU3Mhje7L7XWAWTrXrywQY0aW1b2Qa5e9VWbNU4IcCWh
+1UvgxRMtZJjvQlMpXKdTk8ZTR8bgAhoOmHhS20Bxqd71kYMPA9oXn9EbL/WaEpRijYTYYKTTx/lQ
+oteL1Oe/lHIsvzDQKZrGvUK24JnV6YMgkMhc8ar4grRoL/QIe/N0sVa5QFIhhlFkKDcJ9GE3bu8e
++E4NUWFzcvj1DtL5gp6vK6vEuOJFSuItKzT3IWjX0mpf3/IQx9eujL00f5TUn+krBaNVgocvcH3t
+A3N6GMTcmVQrnNLnhASLyEg06guRJebxWKPG6TPoNKbcnGtJx6UqvtQds8w8CKWPzYsjdj8v4T2W
+UjrOI2opuCI39xsfiEPpEs5Y2UmrzcY0vkcCAwEAATANBgkqhkiG9w0BAQUFAAOCAgEAEEkpbWTT
+qDHSI+keOFhV3lETPQvkjQzEhf6DQs+cb2yO7Q4yNml6bOsAWX83rPVIPgxGHcWTC1cEa44QoZ92
+UIl5lkivLnVwuXHFX00C137tgKUr1yrEwLGlJY7C2ZtbHBzzQFGcBkogK8PT/3lcOufrfLZFIPP/
+dnftDSmNDmHh0dgnFidJBiZWmS8qI6lmrUZspTuKYDLfnAs2Ms6EwDKMojuQxUrxPv7g8G0vPxBl
+YooHIkWaEwLAq70oBLzF59q9QLHxXlkvvg57RwKKvz7cExFyoLFcIXnK55KWh0XMeiCSUt4cTSdN
+RO+fY0KpJ7SZRMt0Z01yJl8evnu71ELHtpgpKUVaLHI9SZ4CjG2ykHGhL2HlqVWbek0e9FEKoNt/
+UHIy2OyaCiZn0AIfaeZHkK+yR0VeqkFu0k5mX5CDcKBKZ3NaWAScMmMGXPduEqAemkyhKSexJV2H
+n468y+j00IMEqWk5rBVkrpRdawYzkd9crYnvBf96WlT/zCWUYtPMjbyXEVFcQu76Hv1uljEY1Ia1
+vqyURcyKY8yerViaPJLxfeWmCH67dapf6tNNBX/NowF+mTKKr12KCg+nCktH5LWzzYI+qB9FucAs
+NTuhGHPcLtwlrwmzAmbl2IcHuk+UyMaSfVGXC6qlSaXLMgisYcxJQ37h0htD+Y9a2TM=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+<!-- **************** Version MDTE-2021.36 *********************** -->
+
+<!-- ******************* IDP metadata **************************** -->
+
+    <md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" ID="tsid20180127T002506Z" Name="http://id.samleiki.fo/idsamleiki-1.0.xml" cacheDuration="PT8H" entityID="https://innrita.test1.samleiki.fo/idp/shibboleth">
+        <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo>
+                    <mdui:DisplayName xml:lang="fo">Innrita til Samleikan</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Innrita til Samleikan</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Samleikin Authentication</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Samleikin Authentication</mdui:Description>
+
+                    <mdui:Logo height="46" width="203">https://innrita.test1.samleiki.fo/public/x509.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+
+            <KeyDescriptor use="signing">
+                <ds:KeyInfo>
+                    <ds:X509Data>
+                        <ds:X509Certificate>
+                            MIIEFzCCAn+gAwIBAgIDqYrHMA0GCSqGSIb3DQEBDAUAMEQxCzAJBgNVBAYTAkZP
+                            MRQwEgYDVQQKEwtHamFsZHN0b3ZhbjEfMB0GA1UEAxMWc2lnbmVyMVJTQVNpZ25L
+                            ZXkwMDAwMTAeFw0xOTAxMjQwMDAwMDBaFw0yNDAxMjMwMDAwMDBaMEQxCzAJBgNV
+                            BAYTAkZPMRQwEgYDVQQKEwtHamFsZHN0b3ZhbjEfMB0GA1UEAxMWc2lnbmVyMVJT
+                            QVNpZ25LZXkwMDAwMTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALPH
+                            Ylmz7fByuQB9KU3gU3Nwl1IYttnvwEKofHP02d15XqQFx7CLujL8cGe4oQzfAulc
+                            IHEpjVN6GiOzyP6207xbdy0VSO8LwagVjsPxwd6ysP7KFuvfXNllnQA/Hs5HStUg
+                            4B1MJRX9K3iEZz0plSV1Jv5XdTOiH8fX6atkpJmyVUvuh6d4crAF3jDIFQwOeW6B
+                            WKNCtxfwhBY1vn50Si3f3o0VIEZCoRy+eGeZiEQ3q5RkeJW+Knl53K/efDLLe8l7
+                            KEjueZOY0Cz1fdQzLeTuIWizG61k9LaVW9YImEkRORt+FD11+sAuRNtmz74Vu/6v
+                            UzuHaXEvchzkFJEPEkPKPW5Pj3os8Dnjm1IiJkbwUrWGS5JOn18FCRKnbJRCqNSv
+                            e8KrhqAxrPtF9c5m9O7nbHTc6cDg03P4KByr3+6mnhYrHjxLuToIHUsvqa8GFzb1
+                            enWoar4z2xsui7SB3U7V+dy8KC+tNkBbHIVNCd72bJyPz0udgH4mODplH5E19wID
+                            AQABoxIwEDAOBgNVHQ8BAf8EBAMCAgQwDQYJKoZIhvcNAQEMBQADggGBAKE0Hqx2
+                            /7Gn5buSl/uvIsBsykIJ4eVxg0a+8m+lzovCv24QUqyYxQcqok/coZqdaAJvwaur
+                            3NLSrQQJ/rH/vQhpjSfhOfOhRhnF/eLu3xYqeiTObPkIYmkOItA6+2kbvhKk067x
+                            mEA7cEYQm5nVAjBQubq69dzRYd7i28AMeQhliLlfzstsapOzH95PNg2VH4HLSeYb
+                            +6rjVVKIHLFZZFv/vk1tkPYpE7TExPCUJ+qAK6/1eQnxQAcjN/nOkOZHtcD15Jkv
+                            3zqzoGiLZW3cY3drlSNZ64aVy+1LK7T828He1WC3YDx6hJEbMU0RLnVvJB7yByV1
+                            oxclQL8oDnsf61NHidFE+zedHsgZwCpL5WuujDkAYnf+BUsxX8aANTwJErjKrFQH
+                            pDIGKskcv5nUXj7XdG19dEXsjHJujzBN6jDhiCAt0JVVWrkagoezvfTHAGSCCCvl
+                            OK8oJY6G9BO6Aw0c80we2aS0Z/OFsJW+DetlY1Y7pZPKlm2/KN9wqFj0Uw==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+
+            </KeyDescriptor>
+            <KeyDescriptor use="encryption">
+                <ds:KeyInfo>
+                    <ds:X509Data>
+                        <ds:X509Certificate>
+                            MIIDPzCCAiegAwIBAgIUW7qSfswC1c+dCZ2jLY5uimhfqr4wDQYJKoZIhvcNAQEL
+                            BQAwIDEeMBwGA1UEAwwVaWRwMS5kZXYua2xpbnRyYWZ0LmZvMB4XDTE3MTIwNDE0
+                            MDQxMVoXDTM3MTIwNDE0MDQxMVowIDEeMBwGA1UEAwwVaWRwMS5kZXYua2xpbnRy
+                            YWZ0LmZvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlJqwUXEwB3TP
+                            8ZE3sXH8o1j/Sto+sOpkI2NQbC7AO3AhQPz4psLlhTdUi852oaxXn1aEx71thSEN
+                            gIX/Z5zfpFBN33OLN18OhRqPOrdeHhUHUZ6cgVLjm/bF3lGP0rFMvFsaJ6AsFBZT
+                            M+e6Pu9VyI79XnclVhbDGPQ2KjTLekjxMFteSx1lcnkSEd/mfJC/Fbn0RkrRhu17
+                            htA1Vv7Wrxlvt7y9C2DO6wZxB1v9tdceuxBdq+rbtTrTJoecYPLsC96VveRgoq5h
+                            qlqQw9unsXQ2Z88pZEH6BZyxOv+saIojYy5zvUuX6++vLq/1kUegk3A3L3o/wEhd
+                            KJx2/w74VQIDAQABo3EwbzAdBgNVHQ4EFgQUa8DO+3R5dskQ2IxtNCx6Egk+COUw
+                            TgYDVR0RBEcwRYIVaWRwMS5kZXYua2xpbnRyYWZ0LmZvhixodHRwczovL2lkcDEu
+                            ZGV2LmtsaW50cmFmdC5mby9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOC
+                            AQEAh5cxy6ik+nRZ5du1dcAuXk+w7ROJJNAULlCxrddGkgr2MLRffla2ql8GSaPa
+                            l28w6ips8MDzKfztCtD2IFiyOWDhDzqirp5f4xukIxEamj0wLcZ7sbP2B6yJK4vX
+                            BqWxGNBPAUljwJsEEhNI/K9K5ktXZQXWJy38dpXShJ8D32QhYloIk3CZG4yKXlRP
+                            /tyjjEvKPq6bnVGx1fCyqBa+De1YAG6XLPP86g8fyjsf8s7vccpmADjiy6ahywEz
+                            CW4o1BiCVsFClGELYHvXeH0m9s16bOAXXmBcmapby2nxCpEJmVjYYn1CmCyf8Qyj
+                            INb8A5sCbVlPiUm6U+Z0d1IQpQ==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+
+            </KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://innrita.test1.samleiki.fo/idp/profile/SAML2/Redirect/SLO"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://innrita.test1.samleiki.fo/idp/profile/SAML2/POST/SLO"/>
+
+
+            <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://innrita.test1.samleiki.fo/idp/profile/SAML2/POST/SSO"/>
+            <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://innrita.test1.samleiki.fo/idp/profile/SAML2/Redirect/SSO"/>
+
+        </IDPSSODescriptor>
+        <md:Extensions>
+            <attr:EntityAttributes xmlns:attr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+                <saml:Attribute Name="urn:oasis:names:tc:SAML:attribute:assurance-certification" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                    <saml:AttributeValue>http://id.samleiki.fo/loa/1.0/substantial</saml:AttributeValue>
+                </saml:Attribute>
+                <saml:Attribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+                <saml:Attribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+                <saml:Attribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+                <saml:Attribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+                <saml:Attribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+                <saml:Attribute FriendlyName="dateOfBirth" Name="urn:oid:1.3.6.1.5.5.7.9.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+                <saml:Attribute FriendlyName="countryOfCitizenship" Name="urn:oid:1.3.6.1.5.5.7.9.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+            </attr:EntityAttributes>
+        </md:Extensions>
+
+        <Organization>
+            <OrganizationName xml:lang="en">Talgildu Føroyar</OrganizationName>
+            <OrganizationDisplayName xml:lang="en">Talgildu Føroyar</OrganizationDisplayName>
+            <OrganizationURL xml:lang="en">http://www.samleiki.fo</OrganizationURL>
+
+            <OrganizationName xml:lang="fo">Talgildu Føroyar</OrganizationName>
+            <OrganizationDisplayName xml:lang="fo">Talgildu Føroyar</OrganizationDisplayName>
+            <OrganizationURL xml:lang="fo">http://www.samleiki.fo</OrganizationURL>
+        </Organization>
+        <ContactPerson contactType="administrative">
+            <Company>Talgildur Samleiki</Company>
+            <SurName>Administrator</SurName>
+            <EmailAddress>mailto:admin@samleiki.fo</EmailAddress>
+        </ContactPerson>
+        <ContactPerson contactType="technical">
+            <Company>Talgildur Samleiki</Company>
+            <SurName>Technical</SurName>
+            <EmailAddress>mailto:tech@samleiki.fo</EmailAddress>
+        </ContactPerson>
+        <ContactPerson contactType="support">
+            <Company>Talgildur Samleiki</Company>
+            <SurName>Support</SurName>
+            <EmailAddress>mailto:support@samleiki.fo</EmailAddress>
+        </ContactPerson>
+    </md:EntityDescriptor>
+
+    <!-- ******************* DEMO Auth0 **************************** -->
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="urn:auth0:auth0-service-provider-test:Samleiki">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Auth0 / Demo</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Demo til Auth0</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Auth0 / Demo</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Demo til Auth0</mdui:Description>
+
+                    <!-- <mdui:Logo height="46" width="203">https://demo.test1.samleiki.fo/images/logo.png</mdui:Logo> -->
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>9817222a9fd1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=9817222a9fd1</ds:X509SubjectName>
+                        <ds:X509Certificate>MIIDKzCCAhOgAwIBAgIJV3A03vTi7ZGgMA0GCSqGSIb3DQEBCwUAMDMxMTAvBgNVBAMTKGF1dGgwLXNlcnZpY2UtcHJvdmlkZXItdGVzdC5ldS5hdXRoMC5jb20wHhcNMjExMTE1MTIzNzIyWhcNMzUwNzI1MTIzNzIyWjAzMTEwLwYDVQQDEyhhdXRoMC1zZXJ2aWNlLXByb3ZpZGVyLXRlc3QuZXUuYXV0aDAuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA36SvSpDKBLDFWO/NFkq6u8KVZxO76WCvmL2bfC2feOC5edBjTCEevlrU/3FnWu5Wq6t2jbTTnugKAEe3QvkxSG78CB5ypj/degGqdY8JHqPbsK3D6FZ/TkjbrqmirX0sXPPMiy+R6lLxT2eqD7UpX/fjS/u8ONkUkHxoTU8SMBMImd2eamFWUtxPB4CiaPq1xeuaW+DohCPb5Oi37eN6un+bteHbMjrzrH47YhgdjA2C3muH4c0c81ksiK3BHJsV8gw0XCl3DpDcWgaW5T2SRW6cNEseGR+oGSMI4RBtXN4SoKnXULKn/tmt6e/bPvViKh2VUDUZuG22vcya4R2zoQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQYcWkJW8eBm1paDvdtPMvYQ1pGSDAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBACxKrhJs9N8VNO124XGjat/aYDpdyslPPWBX8JLAGj8vyOuTPzigtOBA9ZcvGUK0TBhOb5bgoE5rPsMjd44MqRG71+fFLSrWLQNGl6eyd5/+XKP4WCe2HCKDwGWRhgftm6XVUCUXOeS57rYGjQ5plY9X9fz/hTPGMimHzTNI1mrJpqdJKd7Sde0309aA0C5Erx5+xUb1C8hwaKH+cqNvnxeF+H2Rff9KSWTGEFbt8sc9VdIaVvPy9ymYUyeZBPXqn+JlBKI+r4r+8k02Waf0488QhPEFmsSM6lFpp3VPuQ1gseYAZGemSsNuqcgpRtyc6+PUkSGTSd+GB3Gaipe5aAw=
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth0-service-provider-test.eu.auth0.com/login/callback?connection=Samleiki"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth0-service-provider-test.eu.auth0.com/login/callback?connection=Samleiki"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth0-service-provider-test.eu.auth0.com/login/callback?connection=Samleiki" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-NaturalPerson-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.talgildu.fo/</md:OrganizationURL>
+
+
+            <md:OrganizationName xml:lang="en">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.talgildu.fo/</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+
+
+    <!-- ******************* DEMO test1 **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://demo.test1.samleiki.fo/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Samleikin / Demo</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Demo til Talgildan Samleika</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Samleikin / Demo</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Demo til Talgildan Samleika</mdui:Description>
+
+                    <mdui:Logo height="46" width="203">https://demo.test1.samleiki.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>9817222a9fd1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=9817222a9fd1</ds:X509SubjectName>
+                        <ds:X509Certificate>MIID6zCCAlOgAwIBAgIJAPqBy/rLMuyZMA0GCSqGSIb3DQEBCwUAMBcxFTATBgNV
+                            BAMTDDk4MTcyMjJhOWZkMTAeFw0xODAyMTkxMTEwNDJaFw0yODAyMTcxMTEwNDJa
+                            MBcxFTATBgNVBAMTDDk4MTcyMjJhOWZkMTCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+                            ADCCAYoCggGBAOaeO4eofV3PgOQejqEjOX4gxJPrzwoFTp4yVUSvtwIR/5tXKl0N
+                            XM71vbiQDLp6PGb3ZsZvIGo3WmoT4Yy3xzggMMd1ozdHUdqGBMz5VwYsnM1rnRrA
+                            S0d/Yw7IcThuD43718R2NluqgHlF5D+ZYqzislOQp1g4HNJ4rT6pNgtJQ+qnb3KN
+                            NKG2Hh4rjuuED+brIUf27N/qSSufu6lF/1St/xfYIqo3iV+awMYRhdBr3GpO7q7r
+                            Gm5crqb0ugGropsKHNLUEQbIM71Y3TBneVjcUS2drzAJ/d1uOERE7robMKfuPedL
+                            Xuh4ZH8Dd9HAcHmRwfj3xj541e7W7g2nuqCbu8AJYoC2NOjpN0gmnXQVoGYeWhQA
+                            aLdqnXoE8M9bfPdNc4YTT3+uPr/TgEN0MQcDsWaIlnAtoAcVr5S5zS7D736ZTYEk
+                            IXO3IPav2gnNhX4ee95y2/a05kLJRZjCjlW0ore/7JRWXMJZd41d5NAMg06HLcaB
+                            pCGK36VcViUSmQIDAQABozowODAXBgNVHREEEDAOggw5ODE3MjIyYTlmZDEwHQYD
+                            VR0OBBYEFGAFRZwbRG6c3J3uro+IiANePjyjMA0GCSqGSIb3DQEBCwUAA4IBgQCV
+                            ygOsNWIajO+DFUJHbzwruFtKc4IwWa6qF1K+CmOULRjFtXX3y7IYrGw7U3JJ2pQY
+                            oZ+D/y5ZJO4sBaZZ64eiVr1rj01VFB7op9yuWrsKT7iVtWgFWeXGYpw6dNZsFt3Q
+                            /e1+CkCGUojhf0ThPyh+yNXBbeaoxr+gCVu163oEcPE7FZHY1q0RDRo7GoXpByYZ
+                            bbQF0ffbtq8PD+pQ9Y21nPknTlxN44cJxY82xDji7SbTEAK81+RZnFCq8/mL9JYG
+                            FfqDUZX9m6dPNHG+2YM53yfj3Tun/pQCYYM09uCb5pMNwBkRWh49z48U6BVejehd
+                            b/MxvzQkMYF9c8S+VtAtaxff1+4iXXgbuNX/Tz6hDRt8KGYQSnq9IFrbt0I/CaTH
+                            sGFUFRR8Uq2dq+16gVXII7CbscjY2dM3gVUkxkY2gwgP9kUBI8dWeOmnL6lCUDkq
+                            s6Ey6SGcgV7BRruXiHOArDMM+wDwEGfNS0sLfc+AYBn2wy2MTlL7ZLF/DmvcGg8=
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://demo.test1.samleiki.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://demo.test1.samleiki.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://demo.test1.samleiki.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-NaturalPerson-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.talgildu.fo/</md:OrganizationURL>
+
+
+            <md:OrganizationName xml:lang="en">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.talgildu.fo/</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <!-- ******************* ALS **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="ss_174ba911-5fcc-491b-815f-f9046710ca9f" cacheDuration="PT31449600S" entityID="https://ts.alscloud.io" validUntil="2021-02-13T15:20:12Z">
+        <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <md:KeyDescriptor use="signing">
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIDVTCCAjygAwIBAgIBADANBgkqhkiG9w0BAQ0FADBEMQswCQYDVQQGEwJmbzER
+                            MA8GA1UECAwIVG9yc2hhdm4xDDAKBgNVBAoMA0FMUzEUMBIGA1UEAwwLYWxzY2xv
+                            dWQuaW8wHhcNMjAwMjA1MDkyNTQ2WhcNMjMwMjA0MDkyNTQ2WjBEMQswCQYDVQQG
+                            EwJmbzERMA8GA1UECAwIVG9yc2hhdm4xDDAKBgNVBAoMA0FMUzEUMBIGA1UEAwwL
+                            YWxzY2xvdWQuaW8wggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC7sq7c
+                            cq7lpX2QRfW8Oeo0cly2z491grlsSLVZsrYREs34NdxM/DUyXeGJ8sbnEwPMUEHq
+                            0teJxR9up9Z5WVGAzG6kgroB9Q8NyK9CjsJlE+P68yZ3hFcNtE+zV9u6sHoTbdOt
+                            B6YcDwhySyAruw7AOZIkmrrNJ2DkdQa0I97nraNHfq0Znz5XeH3bHb3T7QlBTex7
+                            M8ZbiJpLUK+D5Dqs9d/t9Kef/hJGYYxmVZgTlXlRGFJM7x/rq+S0yIDGybdaGkUz
+                            9TVGvIPex0FMsa1rjkWGWfxbl5DalRFOpotH+vBsW9Lekjb3V8KOnWDYDfFDIXmE
+                            9I/y7FO4GTz2J3ZZYQIDAQABo1AwTjAdBgNVHQ4EFgQUs1NWl0y9brpV0xn69J8x
+                            BOATqz0wHwYDVR0jBBgwFoAUs1NWl0y9brpV0xn69J8xBOATqz0wDAYDVR0TBAUw
+                            AwEB/zANBgkqhkiG9w0BAQ0FAAOCAQIAhh3CR2/WmbPkOIGqTGnTFJ/N7kk9vxDU
+                            KJJva1szN7iViE7aLLuwRxhrMMOwpgXNEa6MW26Anq8dUp0XW8C3sbqYUiUTcy/C
+                            f1l783aBItzZ6i8ISwSX1YOObDI1sfiL+T8kSuLU8GNmBtafngHlSaSHGwu4FN48
+                            6TC+NMDgthBXM9cXP7b9ny76W1nvYCmjHj7S3LA9jikPTpERe/JOF//JLRCGu/gA
+                            x6xI+prsrHMoEF6BxVmWLFrMsdBKICjfG8Qp+6lNb8/d7K7kmCzsGnf7t9EIaorZ
+                            xb8BuBmYaQO+adO2PE5ZXHm3ccR53BmIJqF5qbZKKR9mvRpoIqx5QEk=</ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+            <md:KeyDescriptor use="encryption">
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIDVTCCAjygAwIBAgIBADANBgkqhkiG9w0BAQ0FADBEMQswCQYDVQQGEwJmbzER
+                            MA8GA1UECAwIVG9yc2hhdm4xDDAKBgNVBAoMA0FMUzEUMBIGA1UEAwwLYWxzY2xv
+                            dWQuaW8wHhcNMjAwMjA1MDkyNTQ2WhcNMjMwMjA0MDkyNTQ2WjBEMQswCQYDVQQG
+                            EwJmbzERMA8GA1UECAwIVG9yc2hhdm4xDDAKBgNVBAoMA0FMUzEUMBIGA1UEAwwL
+                            YWxzY2xvdWQuaW8wggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC7sq7c
+                            cq7lpX2QRfW8Oeo0cly2z491grlsSLVZsrYREs34NdxM/DUyXeGJ8sbnEwPMUEHq
+                            0teJxR9up9Z5WVGAzG6kgroB9Q8NyK9CjsJlE+P68yZ3hFcNtE+zV9u6sHoTbdOt
+                            B6YcDwhySyAruw7AOZIkmrrNJ2DkdQa0I97nraNHfq0Znz5XeH3bHb3T7QlBTex7
+                            M8ZbiJpLUK+D5Dqs9d/t9Kef/hJGYYxmVZgTlXlRGFJM7x/rq+S0yIDGybdaGkUz
+                            9TVGvIPex0FMsa1rjkWGWfxbl5DalRFOpotH+vBsW9Lekjb3V8KOnWDYDfFDIXmE
+                            9I/y7FO4GTz2J3ZZYQIDAQABo1AwTjAdBgNVHQ4EFgQUs1NWl0y9brpV0xn69J8x
+                            BOATqz0wHwYDVR0jBBgwFoAUs1NWl0y9brpV0xn69J8xBOATqz0wDAYDVR0TBAUw
+                            AwEB/zANBgkqhkiG9w0BAQ0FAAOCAQIAhh3CR2/WmbPkOIGqTGnTFJ/N7kk9vxDU
+                            KJJva1szN7iViE7aLLuwRxhrMMOwpgXNEa6MW26Anq8dUp0XW8C3sbqYUiUTcy/C
+                            f1l783aBItzZ6i8ISwSX1YOObDI1sfiL+T8kSuLU8GNmBtafngHlSaSHGwu4FN48
+                            6TC+NMDgthBXM9cXP7b9ny76W1nvYCmjHj7S3LA9jikPTpERe/JOF//JLRCGu/gA
+                            x6xI+prsrHMoEF6BxVmWLFrMsdBKICjfG8Qp+6lNb8/d7K7kmCzsGnf7t9EIaorZ
+                            xb8BuBmYaQO+adO2PE5ZXHm3ccR53BmIJqF5qbZKKR9mvRpoIqx5QEk=</ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ts.alscloud.io/auth/acs" index="1"/>
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">Sjálvgreiðslan</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Sjálvgreiðslan hjá Arbeiðsloyisskipani</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">ALS</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Arbeiðsloysisskipanin</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.als.fo</md:OrganizationURL>
+        </md:Organization>
+        <md:ContactPerson contactType="technical">
+            <md:GivenName>KT-Deildin á ALS</md:GivenName>
+            <md:EmailAddress>dev@als.fo</md:EmailAddress>
+        </md:ContactPerson>
+        <md:ContactPerson contactType="support">
+            <md:GivenName>KT-Deildin á ALS</md:GivenName>
+            <md:EmailAddress>dev@als.fo</md:EmailAddress>
+        </md:ContactPerson>
+    </md:EntityDescriptor>
+
+    <!-- ******************* tanastu.fo **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://tanastu.fo/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Samleikin / Tænastuportalurin</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Demo av tænastuportalinum</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Samleikin / Citizen portal</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Demo of citizen portal</mdui:Description>
+
+                    <mdui:Logo height="46" width="203">https://tanastu.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>9817222a9fd1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=9817222a9fd1</ds:X509SubjectName>
+                        <ds:X509Certificate>MIID6zCCAlOgAwIBAgIJAPqBy/rLMuyZMA0GCSqGSIb3DQEBCwUAMBcxFTATBgNV
+                            BAMTDDk4MTcyMjJhOWZkMTAeFw0xODAyMTkxMTEwNDJaFw0yODAyMTcxMTEwNDJa
+                            MBcxFTATBgNVBAMTDDk4MTcyMjJhOWZkMTCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+                            ADCCAYoCggGBAOaeO4eofV3PgOQejqEjOX4gxJPrzwoFTp4yVUSvtwIR/5tXKl0N
+                            XM71vbiQDLp6PGb3ZsZvIGo3WmoT4Yy3xzggMMd1ozdHUdqGBMz5VwYsnM1rnRrA
+                            S0d/Yw7IcThuD43718R2NluqgHlF5D+ZYqzislOQp1g4HNJ4rT6pNgtJQ+qnb3KN
+                            NKG2Hh4rjuuED+brIUf27N/qSSufu6lF/1St/xfYIqo3iV+awMYRhdBr3GpO7q7r
+                            Gm5crqb0ugGropsKHNLUEQbIM71Y3TBneVjcUS2drzAJ/d1uOERE7robMKfuPedL
+                            Xuh4ZH8Dd9HAcHmRwfj3xj541e7W7g2nuqCbu8AJYoC2NOjpN0gmnXQVoGYeWhQA
+                            aLdqnXoE8M9bfPdNc4YTT3+uPr/TgEN0MQcDsWaIlnAtoAcVr5S5zS7D736ZTYEk
+                            IXO3IPav2gnNhX4ee95y2/a05kLJRZjCjlW0ore/7JRWXMJZd41d5NAMg06HLcaB
+                            pCGK36VcViUSmQIDAQABozowODAXBgNVHREEEDAOggw5ODE3MjIyYTlmZDEwHQYD
+                            VR0OBBYEFGAFRZwbRG6c3J3uro+IiANePjyjMA0GCSqGSIb3DQEBCwUAA4IBgQCV
+                            ygOsNWIajO+DFUJHbzwruFtKc4IwWa6qF1K+CmOULRjFtXX3y7IYrGw7U3JJ2pQY
+                            oZ+D/y5ZJO4sBaZZ64eiVr1rj01VFB7op9yuWrsKT7iVtWgFWeXGYpw6dNZsFt3Q
+                            /e1+CkCGUojhf0ThPyh+yNXBbeaoxr+gCVu163oEcPE7FZHY1q0RDRo7GoXpByYZ
+                            bbQF0ffbtq8PD+pQ9Y21nPknTlxN44cJxY82xDji7SbTEAK81+RZnFCq8/mL9JYG
+                            FfqDUZX9m6dPNHG+2YM53yfj3Tun/pQCYYM09uCb5pMNwBkRWh49z48U6BVejehd
+                            b/MxvzQkMYF9c8S+VtAtaxff1+4iXXgbuNX/Tz6hDRt8KGYQSnq9IFrbt0I/CaTH
+                            sGFUFRR8Uq2dq+16gVXII7CbscjY2dM3gVUkxkY2gwgP9kUBI8dWeOmnL6lCUDkq
+                            s6Ey6SGcgV7BRruXiHOArDMM+wDwEGfNS0sLfc+AYBn2wy2MTlL7ZLF/DmvcGg8=
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://tanastu.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://tanastu.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://tanastu.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+            <md:AttributeConsumingService index="1">
+
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Natural Personal Identity with Civic Registration Number</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.talgildu.fo/</md:OrganizationURL>
+
+
+            <md:OrganizationName xml:lang="en">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.talgildu.fo/</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+
+    <!-- ******************* tanastu.fo QA **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://tanastuqa.fo/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Samleikin / Tænastuportalurin</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Demo av tænastuportalinum</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Samleikin / Citizen portal</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Demo of citizen portal</mdui:Description>
+
+                    <mdui:Logo height="46" width="203">https://tanastuqa.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>9817222a9fd1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=9817222a9fd1</ds:X509SubjectName>
+                        <ds:X509Certificate>MIID6zCCAlOgAwIBAgIJAPqBy/rLMuyZMA0GCSqGSIb3DQEBCwUAMBcxFTATBgNV
+                            BAMTDDk4MTcyMjJhOWZkMTAeFw0xODAyMTkxMTEwNDJaFw0yODAyMTcxMTEwNDJa
+                            MBcxFTATBgNVBAMTDDk4MTcyMjJhOWZkMTCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+                            ADCCAYoCggGBAOaeO4eofV3PgOQejqEjOX4gxJPrzwoFTp4yVUSvtwIR/5tXKl0N
+                            XM71vbiQDLp6PGb3ZsZvIGo3WmoT4Yy3xzggMMd1ozdHUdqGBMz5VwYsnM1rnRrA
+                            S0d/Yw7IcThuD43718R2NluqgHlF5D+ZYqzislOQp1g4HNJ4rT6pNgtJQ+qnb3KN
+                            NKG2Hh4rjuuED+brIUf27N/qSSufu6lF/1St/xfYIqo3iV+awMYRhdBr3GpO7q7r
+                            Gm5crqb0ugGropsKHNLUEQbIM71Y3TBneVjcUS2drzAJ/d1uOERE7robMKfuPedL
+                            Xuh4ZH8Dd9HAcHmRwfj3xj541e7W7g2nuqCbu8AJYoC2NOjpN0gmnXQVoGYeWhQA
+                            aLdqnXoE8M9bfPdNc4YTT3+uPr/TgEN0MQcDsWaIlnAtoAcVr5S5zS7D736ZTYEk
+                            IXO3IPav2gnNhX4ee95y2/a05kLJRZjCjlW0ore/7JRWXMJZd41d5NAMg06HLcaB
+                            pCGK36VcViUSmQIDAQABozowODAXBgNVHREEEDAOggw5ODE3MjIyYTlmZDEwHQYD
+                            VR0OBBYEFGAFRZwbRG6c3J3uro+IiANePjyjMA0GCSqGSIb3DQEBCwUAA4IBgQCV
+                            ygOsNWIajO+DFUJHbzwruFtKc4IwWa6qF1K+CmOULRjFtXX3y7IYrGw7U3JJ2pQY
+                            oZ+D/y5ZJO4sBaZZ64eiVr1rj01VFB7op9yuWrsKT7iVtWgFWeXGYpw6dNZsFt3Q
+                            /e1+CkCGUojhf0ThPyh+yNXBbeaoxr+gCVu163oEcPE7FZHY1q0RDRo7GoXpByYZ
+                            bbQF0ffbtq8PD+pQ9Y21nPknTlxN44cJxY82xDji7SbTEAK81+RZnFCq8/mL9JYG
+                            FfqDUZX9m6dPNHG+2YM53yfj3Tun/pQCYYM09uCb5pMNwBkRWh49z48U6BVejehd
+                            b/MxvzQkMYF9c8S+VtAtaxff1+4iXXgbuNX/Tz6hDRt8KGYQSnq9IFrbt0I/CaTH
+                            sGFUFRR8Uq2dq+16gVXII7CbscjY2dM3gVUkxkY2gwgP9kUBI8dWeOmnL6lCUDkq
+                            s6Ey6SGcgV7BRruXiHOArDMM+wDwEGfNS0sLfc+AYBn2wy2MTlL7ZLF/DmvcGg8=
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://tanastuqa.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://tanastuqa.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://tanastuqa.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+            <md:AttributeConsumingService index="1">
+
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Natural Personal Identity with Civic Registration Number</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.talgildu.fo/</md:OrganizationURL>
+
+
+            <md:OrganizationName xml:lang="en">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.talgildu.fo/</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <!-- ******************* Demo taks **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_506fea75e5fc44e9bd611a6385ab26c4b39c0b9f" entityID="https://demo.test1.taks.fo/shibboleth">
+
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+            <md:Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Taks</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Taks</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Taks</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Taks</mdui:Description>
+
+                    <mdui:Logo height="86" width="85">https://demo.test1.taks.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+                <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://demo.test1.taks.fo/Shibboleth.sso/Login"/>
+                <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://test.borgaragluggin.fo/Shibboleth.sso/Login"/>
+                <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://test.vinnugluggin.fo/Shibboleth.sso/Login"/>
+            </md:Extensions>
+
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>dmz-taks-stumb1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=dmz-taks-stumb1</ds:X509SubjectName>
+                        <ds:X509Certificate>MIID/zCCAmegAwIBAgIUZKUnHQlXcpyfR22VszfaT9+bS5swDQYJKoZIhvcNAQEL
+                            BQAwGjEYMBYGA1UEAxMPZG16LXRha3Mtc3R1bWIxMB4XDTE5MDEyODE0NTcyNVoX
+                            DTI5MDEyNTE0NTcyNVowGjEYMBYGA1UEAxMPZG16LXRha3Mtc3R1bWIxMIIBojAN
+                            BgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAzy5FlljKVf0OFSQSYjuLt7lXCeQM
+                            rG14WXfbEybGDWf7sDyYLjutH37l6kmcng9roOwquLzq73Za6288qwHHMwbrxVRy
+                            hYxGTZp3IMKPTL4aoaaG1HpX80mXIo70yXexpZrJ58/tD8OXtINxv9HLs6JmGKFP
+                            pXc0rMLv8k2P88y7MnOuZ0iw5Yqw/kmbHgIZ3rU/ku8Wc2UIknU+a0o1nCJXVRm5
+                            WXvS4hB8llYQlu5W1QbKMTz+byrHtb+OwNxNqaNKa3jP7BNzmiDdbUVFLt8jrOhe
+                            Q2j/GBxVtXK3Hquc7jHg7Q9VH2+5+GgZm8L3dkRwQ96LL+4VpeylwyWSOuJoMIPF
+                            /ONAaK0rPmyVS+CK5T1ndfid7TMHEa2/GGAdC2tMXrWD6zOwjuOItTHlRAmi74eM
+                            BOmGfHYawuoZHZobt23csKTGf3Vs7jtOugiB8AqskQR0pdaf/Et0FYEYr1W0NLcW
+                            PLzW7LZm/KMtBxd1+nJYE81s8TO0QF4x2m/9AgMBAAGjPTA7MBoGA1UdEQQTMBGC
+                            D2Rtei10YWtzLXN0dW1iMTAdBgNVHQ4EFgQUK2w/dr8LDVxgqFgyYhumNxSKExkw
+                            DQYJKoZIhvcNAQELBQADggGBAHWPkKOpp3SEE/JlxYzYQicUxnAfdbClDIhsqKx2
+                            fL5dfKW+hgxroPwq9VXisXqsJ3IjUaT70E+fMOcqoAd0N5JCbeRkt5gZcYPFNkJ3
+                            hLSIVKC7gTMD034lvsRl+923I4V6X6WHt6LACzKU1pYtOwCbGYZDVGJc7seH9RRL
+                            AaV6zjEC60ToXqEyEqgMtThu3b1IvvB6qslJj1tSIjBtgFCeBSk99lA8wrQZpZI0
+                            LWdgIEQxbAgzD3Q+J4givhGdPgBWiJDdVwqi3GOziWsF/gxAfI8uctfvtjo/f+Nk
+                            /KBJp/Q01Quhqt98oR4U/nByVjLIxR6gEGPowZ0CPfHtIivRq85CVbNi/2esehuk
+                            HXvhM3Gtz5X1Px8XBfKtHqP0OQpYy9LeRcMnTTjt4lnLSmiJVgiKtbnBCwVygH9+
+                            UEob5ROaNztWt1ejIvDnQQ/IOCgqSK/jQ54+4gviE/NovNBRKN26rj+Ygi39srnN
+                            //h380iLqefye2+6Ty//Pa2Z0g==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+            </md:KeyDescriptor>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://demo.test1.taks.fo/Shibboleth.sso/Artifact/SOAP" index="1"/>
+            <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.borgaragluggin.fo/Shibboleth.sso/Artifact/SOAP" index="2"/>
+            <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.vinnugluggin.fo/Shibboleth.sso/Artifact/SOAP" index="3"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://demo.test1.taks.fo/Shibboleth.sso/SLO/SOAP"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SLO/SOAP"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SLO/SOAP"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://demo.test1.taks.fo/Shibboleth.sso/SLO/Redirect"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SLO/Redirect"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SLO/Redirect"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://demo.test1.taks.fo/Shibboleth.sso/SLO/POST"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SLO/POST"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SLO/POST"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://demo.test1.taks.fo/Shibboleth.sso/SLO/Artifact"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SLO/Artifact"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SLO/Artifact"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://demo.test1.taks.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SAML2/POST" index="2"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SAML2/POST" index="3"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://demo.test1.taks.fo/Shibboleth.sso/SAML2/POST-SimpleSign" index="4"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SAML2/POST-SimpleSign" index="5"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SAML2/POST-SimpleSign" index="6"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://demo.test1.taks.fo/Shibboleth.sso/SAML2/Artifact" index="7"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SAML2/Artifact" index="8"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SAML2/Artifact" index="9"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://demo.test1.taks.fo/Shibboleth.sso/SAML2/ECP" index="10"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SAML2/ECP" index="11"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SAML2/ECP" index="12"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://demo.test1.taks.fo/Shibboleth.sso/SAML/POST" index="13"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SAML/POST" index="14"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SAML/POST" index="15"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://demo.test1.taks.fo/Shibboleth.sso/SAML/Artifact" index="16"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://test.borgaragluggin.fo/Shibboleth.sso/SAML/Artifact" index="17"/>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://test.vinnugluggin.fo/Shibboleth.sso/SAML/Artifact" index="18"/>
+            <md:AttributeConsumingService index="1">
+
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Natural Personal Identity with Civic Registration Number</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+            <md:AttributeConsumingService index="2">
+
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Natural Personal Identity with Civic Registration Number</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+
+            <md:AttributeConsumingService index="3">
+
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Natural Personal Identity with Civic Registration Number</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+        </md:SPSSODescriptor>
+
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Taks</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Taks</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.taks.fo/</md:OrganizationURL>
+
+
+            <md:OrganizationName xml:lang="en">Taks</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Taks</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.taks.fo/</md:OrganizationURL>
+        </md:Organization>
+
+    </md:EntityDescriptor>
+
+    <!-- ******************* CASE 1 **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://case1.test1.samleiki.fo/samleiki">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Tænastuveitari 1</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Royndarinnritan</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Service Provider 1</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Test authentication</mdui:Description>
+
+                    <mdui:Logo height="46" width="203">https://case1.test1.samleiki.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIFKjCCAxICCQCxCZvdDBijIzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJG
+                            TzELMAkGA1UECAwCTkExCzAJBgNVBAcMAk5BMQswCQYDVQQKDAJOQTELMAkGA1UE
+                            CwwCTkExFDASBgNVBAMMC3Rlc3RjYXNlLXNwMB4XDTE5MTEyMTIyMTYyMVoXDTIw
+                            MTEyMDIyMTYyMVowVzELMAkGA1UEBhMCRk8xCzAJBgNVBAgMAk5BMQswCQYDVQQH
+                            DAJOQTELMAkGA1UECgwCTkExCzAJBgNVBAsMAk5BMRQwEgYDVQQDDAt0ZXN0Y2Fz
+                            ZS1zcDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKV8Ny40aKbMMPI4
+                            VX07VSgZq5WbocxTwpnk097qzWXwf0MsiyBTzHW7QnmZDGXm0Mw7iGMbumb7iUYH
+                            uLWV7fTUXu36uDdstMtZBE1Etf+eSE6PoKLQUzLc/wAcw/er0S6HMIMzEcg9wEQh
+                            KB63F1fZNdR0Nm4pdG5vOVY+LrPyoPo6IEXimdx336m/N8npYh63NSixc9Rz6hcp
+                            +WqTI2A3HRuNE5w/1KUSD32mkXJ4tIXakWwZB2cJ9xtc4KWFK/WUbR+pXv693gMb
+                            10s/S0f4MxzuVQn+4vhdwsrh2EznZdnSDg4H+mGpCVez2azp/JibiIuY/JUTg+dP
+                            YQ7UWAJHUeLI2+I2i/4yJwXkeIfMHVeJd5jvkeGm2C8tOn5nO8341FzQT/YEe732
+                            fOZf8qkk2Ysv98ncwIXsrfixPyY8rKZ1fFqwOwM6wwFLXmInqysRZqvxhG/qWC7O
+                            DI1T8DvTdS01SYmUz8FPlB58vXRHqscN8p4ov+e8l1QCeeFZJM5Sy7RhVV2ttGjD
+                            sV1cX9JfSEuFICOBxcWD9UyU7HyvsWBBcoGy+1DUSCtphf9Qki6rnC/9WNHP+mTB
+                            PRCo47ZmXu7SxY6QvtdNcPuejseVIi7wPoHl1W1iRbhi4Qoc6SHU2sJc7Dk8v2j9
+                            lX88k1ihx0rQI8+D3v7+lsusibIvAgMBAAEwDQYJKoZIhvcNAQELBQADggIBACLQ
+                            9DmrMLJIQztb8fqSBsknl9Ne4kYQvG9B3hp+eNS3mZXpSbmbrmSXvAmOx6ROJwkK
+                            NTeBVY8Jplnv0qYMpC0nuNo1ABMKYQeQunolElUipZA7ja1ucT/RDz6A2zQcDhwn
+                            sNQ5CABgBwxPVuXRHK3zKWUVidVYRb3PpnmAUlWoNAnIZ2fyXjQNExhefF/9cquV
+                            rLQ5tKMeW/lGni+v2x/1FBZg53dmpO0EfQbVP6hEYB9jg8yOR13bsFV6ilsw0/Bd
+                            KYRlar6E6xH5lHo7pOqivJTyBD6uBs2OssKSREfr3yZm7+1qCK0jqcdkswWa5FWG
+                            9llnM6tmHRVwo8Cydit9SPW23k7+EDFUI9miGyT1zEl6/vk4Xsfskj9CVB26BKrB
+                            3r7cn84sPrSVi/xw9SIdEOc8yE7IWV93JQucyH3Z2kTQbu/i/oeCMImkzLH5KWje
+                            Z3vLXcJpMhFIfqhY145cbB+Rs7927uEQ40T9otm2yc0qhp2Xz9sMgT0clF8iTTH4
+                            8v0Dk6S2GYWViNZXT10ZTbsjLBYE4Uc9KPBfXsIchjQitF7vTPsW9omJo5MQtZ5n
+                            wSxsXLgiBSkjT11jPzxZysADmDZ4R8trzS4mosNXTwb/gQLJFcLs7pGjsONzX61g
+                            RCX5eE3zXiZDiY1qNdbqp+nicIebNe6nv0sUAeYn
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://case1.test1.samleiki.fo/spsession/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://case1.test1.samleiki.fo/spsession/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://case1.test1.samleiki.fo/spsession/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:1.3.6.1.5.5.7.9.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:1.3.6.1.5.5.7.9.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Case 1 Tænastuveitari</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Case 1 Tænastuveitari</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://case1.test1.samleiki.fo</md:OrganizationURL>
+
+            <md:OrganizationName xml:lang="en">Case 1 Service Provider</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Case 1 Service Provider</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://case1.test1.samleiki.fo</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <!-- ******************* CASE2 **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://case2.test1.samleiki.fo/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Samleikin / Royndarinnritan 2</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Royndarinnritan 2</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Samleikin / Test Case 2</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Test case 1</mdui:Description>
+
+                    <mdui:Logo height="46" width="203">https://case2.test1.samleiki.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIFKjCCAxICCQCxCZvdDBijIzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJG
+                            TzELMAkGA1UECAwCTkExCzAJBgNVBAcMAk5BMQswCQYDVQQKDAJOQTELMAkGA1UE
+                            CwwCTkExFDASBgNVBAMMC3Rlc3RjYXNlLXNwMB4XDTE5MTEyMTIyMTYyMVoXDTIw
+                            MTEyMDIyMTYyMVowVzELMAkGA1UEBhMCRk8xCzAJBgNVBAgMAk5BMQswCQYDVQQH
+                            DAJOQTELMAkGA1UECgwCTkExCzAJBgNVBAsMAk5BMRQwEgYDVQQDDAt0ZXN0Y2Fz
+                            ZS1zcDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKV8Ny40aKbMMPI4
+                            VX07VSgZq5WbocxTwpnk097qzWXwf0MsiyBTzHW7QnmZDGXm0Mw7iGMbumb7iUYH
+                            uLWV7fTUXu36uDdstMtZBE1Etf+eSE6PoKLQUzLc/wAcw/er0S6HMIMzEcg9wEQh
+                            KB63F1fZNdR0Nm4pdG5vOVY+LrPyoPo6IEXimdx336m/N8npYh63NSixc9Rz6hcp
+                            +WqTI2A3HRuNE5w/1KUSD32mkXJ4tIXakWwZB2cJ9xtc4KWFK/WUbR+pXv693gMb
+                            10s/S0f4MxzuVQn+4vhdwsrh2EznZdnSDg4H+mGpCVez2azp/JibiIuY/JUTg+dP
+                            YQ7UWAJHUeLI2+I2i/4yJwXkeIfMHVeJd5jvkeGm2C8tOn5nO8341FzQT/YEe732
+                            fOZf8qkk2Ysv98ncwIXsrfixPyY8rKZ1fFqwOwM6wwFLXmInqysRZqvxhG/qWC7O
+                            DI1T8DvTdS01SYmUz8FPlB58vXRHqscN8p4ov+e8l1QCeeFZJM5Sy7RhVV2ttGjD
+                            sV1cX9JfSEuFICOBxcWD9UyU7HyvsWBBcoGy+1DUSCtphf9Qki6rnC/9WNHP+mTB
+                            PRCo47ZmXu7SxY6QvtdNcPuejseVIi7wPoHl1W1iRbhi4Qoc6SHU2sJc7Dk8v2j9
+                            lX88k1ihx0rQI8+D3v7+lsusibIvAgMBAAEwDQYJKoZIhvcNAQELBQADggIBACLQ
+                            9DmrMLJIQztb8fqSBsknl9Ne4kYQvG9B3hp+eNS3mZXpSbmbrmSXvAmOx6ROJwkK
+                            NTeBVY8Jplnv0qYMpC0nuNo1ABMKYQeQunolElUipZA7ja1ucT/RDz6A2zQcDhwn
+                            sNQ5CABgBwxPVuXRHK3zKWUVidVYRb3PpnmAUlWoNAnIZ2fyXjQNExhefF/9cquV
+                            rLQ5tKMeW/lGni+v2x/1FBZg53dmpO0EfQbVP6hEYB9jg8yOR13bsFV6ilsw0/Bd
+                            KYRlar6E6xH5lHo7pOqivJTyBD6uBs2OssKSREfr3yZm7+1qCK0jqcdkswWa5FWG
+                            9llnM6tmHRVwo8Cydit9SPW23k7+EDFUI9miGyT1zEl6/vk4Xsfskj9CVB26BKrB
+                            3r7cn84sPrSVi/xw9SIdEOc8yE7IWV93JQucyH3Z2kTQbu/i/oeCMImkzLH5KWje
+                            Z3vLXcJpMhFIfqhY145cbB+Rs7927uEQ40T9otm2yc0qhp2Xz9sMgT0clF8iTTH4
+                            8v0Dk6S2GYWViNZXT10ZTbsjLBYE4Uc9KPBfXsIchjQitF7vTPsW9omJo5MQtZ5n
+                            wSxsXLgiBSkjT11jPzxZysADmDZ4R8trzS4mosNXTwb/gQLJFcLs7pGjsONzX61g
+                            RCX5eE3zXiZDiY1qNdbqp+nicIebNe6nv0sUAeYn
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+<!--            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"-->
+<!--                                    Location="https://case2.test1.samleiki.fo/Shibboleth.sso/SLO/Redirect"/>-->
+
+<!--            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"-->
+<!--                                    Location="https://case2.test1.samleiki.fo/Shibboleth.sso/SLO/POST"/>-->
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://case2.test1.samleiki.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Talgildu Føroyar - case 2</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Talgildu Føroyar - case 2</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.talgildu.fo/</md:OrganizationURL>
+
+            <md:OrganizationName xml:lang="en">The National Digitalisation Programme of the Faroe Islands - case 2</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">The National Digitalisation Programme of the Faroe Islands - case 2</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.talgildu.fo/</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <!-- ******************* CASE3 **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://case3.test1.samleiki.fo/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Tænastuveitari 3</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Royndarinnritan</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Service Provider 3</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Test authenticat</mdui:Description>
+
+                    <mdui:Logo height="46" width="203">https://case3.test1.samleiki.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIFKjCCAxICCQCxCZvdDBijIzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJG
+                            TzELMAkGA1UECAwCTkExCzAJBgNVBAcMAk5BMQswCQYDVQQKDAJOQTELMAkGA1UE
+                            CwwCTkExFDASBgNVBAMMC3Rlc3RjYXNlLXNwMB4XDTE5MTEyMTIyMTYyMVoXDTIw
+                            MTEyMDIyMTYyMVowVzELMAkGA1UEBhMCRk8xCzAJBgNVBAgMAk5BMQswCQYDVQQH
+                            DAJOQTELMAkGA1UECgwCTkExCzAJBgNVBAsMAk5BMRQwEgYDVQQDDAt0ZXN0Y2Fz
+                            ZS1zcDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKV8Ny40aKbMMPI4
+                            VX07VSgZq5WbocxTwpnk097qzWXwf0MsiyBTzHW7QnmZDGXm0Mw7iGMbumb7iUYH
+                            uLWV7fTUXu36uDdstMtZBE1Etf+eSE6PoKLQUzLc/wAcw/er0S6HMIMzEcg9wEQh
+                            KB63F1fZNdR0Nm4pdG5vOVY+LrPyoPo6IEXimdx336m/N8npYh63NSixc9Rz6hcp
+                            +WqTI2A3HRuNE5w/1KUSD32mkXJ4tIXakWwZB2cJ9xtc4KWFK/WUbR+pXv693gMb
+                            10s/S0f4MxzuVQn+4vhdwsrh2EznZdnSDg4H+mGpCVez2azp/JibiIuY/JUTg+dP
+                            YQ7UWAJHUeLI2+I2i/4yJwXkeIfMHVeJd5jvkeGm2C8tOn5nO8341FzQT/YEe732
+                            fOZf8qkk2Ysv98ncwIXsrfixPyY8rKZ1fFqwOwM6wwFLXmInqysRZqvxhG/qWC7O
+                            DI1T8DvTdS01SYmUz8FPlB58vXRHqscN8p4ov+e8l1QCeeFZJM5Sy7RhVV2ttGjD
+                            sV1cX9JfSEuFICOBxcWD9UyU7HyvsWBBcoGy+1DUSCtphf9Qki6rnC/9WNHP+mTB
+                            PRCo47ZmXu7SxY6QvtdNcPuejseVIi7wPoHl1W1iRbhi4Qoc6SHU2sJc7Dk8v2j9
+                            lX88k1ihx0rQI8+D3v7+lsusibIvAgMBAAEwDQYJKoZIhvcNAQELBQADggIBACLQ
+                            9DmrMLJIQztb8fqSBsknl9Ne4kYQvG9B3hp+eNS3mZXpSbmbrmSXvAmOx6ROJwkK
+                            NTeBVY8Jplnv0qYMpC0nuNo1ABMKYQeQunolElUipZA7ja1ucT/RDz6A2zQcDhwn
+                            sNQ5CABgBwxPVuXRHK3zKWUVidVYRb3PpnmAUlWoNAnIZ2fyXjQNExhefF/9cquV
+                            rLQ5tKMeW/lGni+v2x/1FBZg53dmpO0EfQbVP6hEYB9jg8yOR13bsFV6ilsw0/Bd
+                            KYRlar6E6xH5lHo7pOqivJTyBD6uBs2OssKSREfr3yZm7+1qCK0jqcdkswWa5FWG
+                            9llnM6tmHRVwo8Cydit9SPW23k7+EDFUI9miGyT1zEl6/vk4Xsfskj9CVB26BKrB
+                            3r7cn84sPrSVi/xw9SIdEOc8yE7IWV93JQucyH3Z2kTQbu/i/oeCMImkzLH5KWje
+                            Z3vLXcJpMhFIfqhY145cbB+Rs7927uEQ40T9otm2yc0qhp2Xz9sMgT0clF8iTTH4
+                            8v0Dk6S2GYWViNZXT10ZTbsjLBYE4Uc9KPBfXsIchjQitF7vTPsW9omJo5MQtZ5n
+                            wSxsXLgiBSkjT11jPzxZysADmDZ4R8trzS4mosNXTwb/gQLJFcLs7pGjsONzX61g
+                            RCX5eE3zXiZDiY1qNdbqp+nicIebNe6nv0sUAeYn
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://case3.test1.samleiki.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://case3.test1.samleiki.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://case3.test1.samleiki.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="dateOfBirth" Name="urn:oid:1.3.6.1.5.5.7.9.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="countryOfCitizenship" Name="urn:oid:1.3.6.1.5.5.7.9.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Case 3 Tænastuveitari</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Case 3 Tænastuveitari</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://case3.test1.samleiki.fo</md:OrganizationURL>
+
+            <md:OrganizationName xml:lang="en">Case 3 Service Provider</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Case 3 Service Provider</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://case3.test1.samleiki.fo</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <!-- ******************* Signicat **************************** -->
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://sigapp.signicat.net:4443/std/method/nbidmobile" validUntil="2021-05-18T10:30:12.000Z">
+        <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <md:Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Signicat AS</mdui:DisplayName>
+                    <mdui:DisplayName xml:lang="en">Signicat AS</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Development instance for Samleikin integration</mdui:Description>
+                    <mdui:Description xml:lang="fo">Development instance for Samleikin integration</mdui:Description>
+                    <mdui:Logo height="10" width="10">
+                        https://developer.signicat.com/wp-content/themes/manual-child/images/signicat-logo-white.png
+                    </mdui:Logo>
+                </mdui:UIInfo>
+            </md:Extensions>
+            <md:KeyDescriptor use="signing">
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIFcDCCA1gCCQCLcTcEPgoMYjANBgkqhkiG9w0BAQsFADB6MQswCQYDVQQGEwJOTzEVMBMGA1UE
+                            CAwMVHLDg8K4bmRlbGFnMRIwEAYDVQQHDAlUcm9uZGhlaW0xFDASBgNVBAoMC1NpZ25pY2F0IEFT
+                            MQwwCgYDVQQLDANlSUQxHDAaBgNVBAMME3NpZ2FwcC5zaWduaWNhdC5uZXQwHhcNMjAwNTE4MTAz
+                            MDEyWhcNMjEwNTE4MTAzMDEyWjB6MQswCQYDVQQGEwJOTzEVMBMGA1UECAwMVHLDg8K4bmRlbGFn
+                            MRIwEAYDVQQHDAlUcm9uZGhlaW0xFDASBgNVBAoMC1NpZ25pY2F0IEFTMQwwCgYDVQQLDANlSUQx
+                            HDAaBgNVBAMME3NpZ2FwcC5zaWduaWNhdC5uZXQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
+                            AoICAQDm8Qw4OqH6wYyabStqYySopUej/xUB1C7eId/xcfLk+GuMqWO0eq0Oa24K8xPf0YOD6X2+
+                            cb4fXJtrhtNR9mddk0ymNO+HScgDr1RCgBSQUCDjyyOINtDAVFDpGBQooGTLldYAPgKWvzy+ocWz
+                            BYc/ZxZ0e25RlqTG5T9qRfGG2qDbbYSsvHMZhZQyi6L+f8r6o+LW6s+C/zLOTAxf2Ey6t6lr/K2f
+                            f00dBxxTtyP5UMkhtS/5n4CbbViCSUdNMYP47RNQHbljOso6RtEXDzKt42GLjyxcpjt1ij/+oZnl
+                            476EqeDxZ9fk+CDTsQu4/t+eQWHCnKRHN5AyvBLKlL8ltn5DroPCXErTjRuGq0XURPX4b59eS1nz
+                            CyvuZj7edD5nGG+hl+syJBeL2yltgeu8kc2AqpjpX+0SLPsTwkItsjLz5cLtFo2IifvlCIDNBLuN
+                            g7gJJdy6PjLf7Hktk9mCaAlmu1vGeJMKr0UmMt46vEBSPUO07fD1X9P7uZWRXtMzYECm5MZBN5Tv
+                            wZuCWohkHyyfxCrwyj9mKCTQDf9u4Us3R/XyIxDJohfB0WO6oz85thCAYr2bcOACGXiyYr6kUYVD
+                            TkOi2/AFBhvMjTMDzk8aNg7hP697kEdm8ZgQv6HYjXaOkDtjECm4syLrcrqP34RE1IW5UIUXwQ9a
+                            pS9/zQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDlhZ3aMrcJtO1OAD6iFOQJ8j3RK12oyMMzb9XJ
+                            bnpbkHhmrehx8YKNJQXZMvxksCl6hR6zFcjH+eVZ4bq8jNqsHauhxwYqS+V2XAS7irC8tz1XhZqV
+                            KNsD/oU9wMOoy89bkgAcB5LUsstIn61GTPVPZvs+okqaLghXEXAnymGa++al1pFKQHozRDXIlzBY
+                            K3G3rYBh/y20FD97HRTo3HntBcZgQOE9OXnf+dQ6oRDJLAdxLE+N/HvrYuHV5ozJVtxidT4GNZPy
+                            4D6XbanpHKmcBjGbOfsdPe13OhwrAxEIRjA/A2SNxMC6ef2tBqC6cUQ1fmBIu4CzBV4lXzcv8pTR
+                            wwC1DmW8uZ9EGSCwi9HW0qt3NyQCsyxKdpLB+QdfO74ANEQM4lxq598jJjaNYuqUCt8TQLEpwQDD
+                            bgLR0ZWptKImV3oFFz87JKAvtiDkCcBmZYJC09P2xjhfav3byMr/kaArlRNE62YM13gM0c0eb+vY
+                            sONfRSNdcgiEym0Hc5eJUayq3/9Pq83B0zMF/j1kPwcAJtIB3q5RGdz3xHz74uMgTFud2wm1velw
+                            fjgRb6VtmFE/btudPEfDEuoywclXsC6YRygWLm7o6094ZC/SvoZ4og3DpSRit59+6iWbo+XI5vvj
+                            rqJMDeDEY70dJ6K2MSkhgQ2tbknbpCtYuCxLag==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+            <md:KeyDescriptor use="encryption">
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIFcDCCA1gCCQCLcTcEPgoMYjANBgkqhkiG9w0BAQsFADB6MQswCQYDVQQGEwJOTzEVMBMGA1UE
+                            CAwMVHLDg8K4bmRlbGFnMRIwEAYDVQQHDAlUcm9uZGhlaW0xFDASBgNVBAoMC1NpZ25pY2F0IEFT
+                            MQwwCgYDVQQLDANlSUQxHDAaBgNVBAMME3NpZ2FwcC5zaWduaWNhdC5uZXQwHhcNMjAwNTE4MTAz
+                            MDEyWhcNMjEwNTE4MTAzMDEyWjB6MQswCQYDVQQGEwJOTzEVMBMGA1UECAwMVHLDg8K4bmRlbGFn
+                            MRIwEAYDVQQHDAlUcm9uZGhlaW0xFDASBgNVBAoMC1NpZ25pY2F0IEFTMQwwCgYDVQQLDANlSUQx
+                            HDAaBgNVBAMME3NpZ2FwcC5zaWduaWNhdC5uZXQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
+                            AoICAQDm8Qw4OqH6wYyabStqYySopUej/xUB1C7eId/xcfLk+GuMqWO0eq0Oa24K8xPf0YOD6X2+
+                            cb4fXJtrhtNR9mddk0ymNO+HScgDr1RCgBSQUCDjyyOINtDAVFDpGBQooGTLldYAPgKWvzy+ocWz
+                            BYc/ZxZ0e25RlqTG5T9qRfGG2qDbbYSsvHMZhZQyi6L+f8r6o+LW6s+C/zLOTAxf2Ey6t6lr/K2f
+                            f00dBxxTtyP5UMkhtS/5n4CbbViCSUdNMYP47RNQHbljOso6RtEXDzKt42GLjyxcpjt1ij/+oZnl
+                            476EqeDxZ9fk+CDTsQu4/t+eQWHCnKRHN5AyvBLKlL8ltn5DroPCXErTjRuGq0XURPX4b59eS1nz
+                            CyvuZj7edD5nGG+hl+syJBeL2yltgeu8kc2AqpjpX+0SLPsTwkItsjLz5cLtFo2IifvlCIDNBLuN
+                            g7gJJdy6PjLf7Hktk9mCaAlmu1vGeJMKr0UmMt46vEBSPUO07fD1X9P7uZWRXtMzYECm5MZBN5Tv
+                            wZuCWohkHyyfxCrwyj9mKCTQDf9u4Us3R/XyIxDJohfB0WO6oz85thCAYr2bcOACGXiyYr6kUYVD
+                            TkOi2/AFBhvMjTMDzk8aNg7hP697kEdm8ZgQv6HYjXaOkDtjECm4syLrcrqP34RE1IW5UIUXwQ9a
+                            pS9/zQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQDlhZ3aMrcJtO1OAD6iFOQJ8j3RK12oyMMzb9XJ
+                            bnpbkHhmrehx8YKNJQXZMvxksCl6hR6zFcjH+eVZ4bq8jNqsHauhxwYqS+V2XAS7irC8tz1XhZqV
+                            KNsD/oU9wMOoy89bkgAcB5LUsstIn61GTPVPZvs+okqaLghXEXAnymGa++al1pFKQHozRDXIlzBY
+                            K3G3rYBh/y20FD97HRTo3HntBcZgQOE9OXnf+dQ6oRDJLAdxLE+N/HvrYuHV5ozJVtxidT4GNZPy
+                            4D6XbanpHKmcBjGbOfsdPe13OhwrAxEIRjA/A2SNxMC6ef2tBqC6cUQ1fmBIu4CzBV4lXzcv8pTR
+                            wwC1DmW8uZ9EGSCwi9HW0qt3NyQCsyxKdpLB+QdfO74ANEQM4lxq598jJjaNYuqUCt8TQLEpwQDD
+                            bgLR0ZWptKImV3oFFz87JKAvtiDkCcBmZYJC09P2xjhfav3byMr/kaArlRNE62YM13gM0c0eb+vY
+                            sONfRSNdcgiEym0Hc5eJUayq3/9Pq83B0zMF/j1kPwcAJtIB3q5RGdz3xHz74uMgTFud2wm1velw
+                            fjgRb6VtmFE/btudPEfDEuoywclXsC6YRygWLm7o6094ZC/SvoZ4og3DpSRit59+6iWbo+XI5vvj
+                            rqJMDeDEY70dJ6K2MSkhgQ2tbknbpCtYuCxLag==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+                <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+            </md:KeyDescriptor>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sigapp.signicat.net:4443/std/redirect/nbidmobile" index="0" isDefault="true"/>
+
+            <md:AttributeConsumingService index="0" isDefault="false">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>            </md:AttributeConsumingService>
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="en">Signicat AS</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Signicat AS</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://signicat.com/</md:OrganizationURL>
+        </md:Organization>
+        <md:ContactPerson contactType="support">
+            <md:Company>Signicat AS</md:Company>
+            <md:EmailAddress>support@signicat.com</md:EmailAddress>
+            <md:TelephoneNumber>+47 400 03 410</md:TelephoneNumber>
+        </md:ContactPerson>
+    </md:EntityDescriptor>
+
+    <!-- ******************* Lív **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://testkp.liv.fo/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Kundaportalurin</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Kundaportalurin hjá Lív</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Customer Portal</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">The customer portal of Lív</mdui:Description>
+
+                    <mdui:Logo height="60" width="60">https://secure.liv.fo/kundaportal/Content/Custom/companylogo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>9817222a9fd1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=TS_SP_4069_keypair</ds:X509SubjectName>
+                        <ds:X509Certificate>MIIFKDCCAxCgAwIBAgIEeGgmCTANBgkqhkiG9w0BAQUFADBMMQswCQYDVQQGEwJG
+                            TzERMA8GA1UECBMIVG9yc2hhdm4xDDAKBgNVBAoTA0xpdjEcMBoGA1UEAxMTbGl2
+                            X3NwXzQwOTZfa2V5cGFpcjAeFw0yMDA5MTQwMDAwMDBaFw0yNTA5MTMwMDAwMDBa
+                            MEwxCzAJBgNVBAYTAkZPMREwDwYDVQQIEwhUb3JzaGF2bjEMMAoGA1UEChMDTGl2
+                            MRwwGgYDVQQDExNsaXZfc3BfNDA5Nl9rZXlwYWlyMIICIjANBgkqhkiG9w0BAQEF
+                            AAOCAg8AMIICCgKCAgEA2XkySx03zWELp3tERJepSOcJ3+ddnxG7cwJlS+h0kC0U
+                            cmJ553RHoNrTMf0NugmzSLNah/0fqxDQV05Y6oFDC+2VgQ8OjiyouoUpMEizi+id
+                            advcdjfygA0+Jy0AgEKKwGnybQxOLXxzdkMmiGUrTulKskVMJ65DXdI1PtHfOd6o
+                            EWatcV8CHzfU7U4G4ZPmx5VPGDOKG30WlAJ9bCTbN7g/D/IQH5cuRGQwxn/t56ei
+                            iwwFj9uk2WbeY8S1K8z5gazxbT8rxU+Ok5GVQ2D+gocs7Dp+M6l+of211Wnbn+ml
+                            bJZg0aEtQgj9fsesd1RBGEEY0qSOlF/douXe7GYBdc4ViT5+vgRzKdD4y2F2QJ24
+                            dU+uHD/l6qRvlCEFjul0sMo6tZZ7AFjvhtRuY8O6aGjnDNbRfy8qOtvu+XcS88rk
+                            FRPwHC3FTMX1J+4NUdvj5W7pMiqkpLlnGlcJJIFfDKh36nBoFb1CUH4VqLxQInQO
+                            pIO/iivK1VTVtNooawcrO4+lPvEkdOFtmyBfnavZD9Daw7EWPr/lBXAg7TtE5gfR
+                            E414lCCeKIiyA989Wf/Ci+f6DAF05IVOKgAGTtk+ufGEM22lRG3YR8q1TYW3ZrfD
+                            0ujUmzlGKEpDE4Zhaem1ffild5RXr4Ay0CRrSQVnGwVOvNfW7CM+y/HB5UGEz/cC
+                            AwEAAaMSMBAwDgYDVR0PAQH/BAQDAgIEMA0GCSqGSIb3DQEBBQUAA4ICAQBLZdq9
+                            8r7SEwevIXJnbaoL9jlXxiP13It06SJqbWp2INPfn/1KAxTVHg268K5YJ1Oqg5MO
+                            cTMFhoeTSnQ7WATCbXiuY1PYr4cZSi7HWYh33I3Q5GrJiugcBiwfQbi4S0aV424t
+                            ZTAlYkXPhKv5O/Hzc5jwP+1rfqYllwAgXXY9oVlDETOeNMoSYnsIJIJ0jJaJKJBl
+                            XRiEFEiRIgd+1l9prITTdZulYrs5fVXGAaFih/j43gHlvaEvGvsIUhTmwcCp9BUG
+                            iDaZtCFfqPmo42oVG2rpQB8Vh5U4/Q3tcsgZtYfB3k1ElUoaYqcY82twKM8Gbp48
+                            b4utzESmTP7M1LHiGm+lOWDNaVVLgw5P9XalWImPn49NfsfIoIvVUKpYsUNhsB6R
+                            y03ithPNPdtiadTZiwWwm2JgiMdySlAqLUl53o6UkSU8ry6l9t5v7FAeojPl9dIY
+                            L8Z0u9XDDbN/feiwxUPJAFnVZmtHzDMTaoJPJgcJ3GhvaDDJO1ERMdDnGO0sWpR0
+                            44t3vUAqExlqctS/Nl/FNU61CU2na7sOEEH4mZ9Gef/mLQ3ekUDGv7PuG2f8ss0D
+                            z/10Xjj1xSKxmqnE/1QeGCaeh635XLxj3usS4lpJU+Gk0Vfkeg4jmEFew4/8P8OL
+                            r7kTydHlrQRamnv8M2CwM8oq3hX/Eob9GO607w==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://testkp.liv.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://testkp.liv.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://testkp.liv.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity with civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">P/F Lív</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Lív</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.liv.fo/</md:OrganizationURL>
+
+
+            <md:OrganizationName xml:lang="en">P/F Lív</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Lív</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.liv.fo/</md:OrganizationURL>
+        </md:Organization>
+
+        <ContactPerson contactType="administrative">
+            <Company>LÍV</Company>
+            <GivenName>Arnfinnur Gudjónsson</GivenName>
+            <EmailAddress>arnfinnur@liv.fo</EmailAddress>
+            <TelephoneNumber>231112</TelephoneNumber>
+        </ContactPerson>
+        <ContactPerson contactType="technical">
+            <Company>Klintra</Company>
+            <GivenName>Bogi Lenvig</GivenName>
+            <EmailAddress>ble@klintra.fo</EmailAddress>
+            <TelephoneNumber>794299</TelephoneNumber>
+        </ContactPerson>
+        <ContactPerson contactType="support">
+            <Company>LÍV</Company>
+            <GivenName>Hanus Gaard</GivenName>
+            <EmailAddress>hanus@liv.fo</EmailAddress>
+            <TelephoneNumber>351164</TelephoneNumber>
+        </ContactPerson>
+    </md:EntityDescriptor>
+
+    <!-- ******************* Tinglysing **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://demo.tinglysing.fo/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Tinglýsing</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Alment innlit í hvat er tinglýst uppá fastogn og akfør í Føroyum.</mdui:Description>
+                    <mdui:DisplayName xml:lang="en">Tinglýsing</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Land Registration Act</mdui:Description>
+
+                    <mdui:Logo height="100" width="89">https://tinglysing.fo/pix/ilmr.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>9817222a9fd1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=9817222a9fd1</ds:X509SubjectName>
+                        <ds:X509Certificate>MIID6zCCAlOgAwIBAgIJAPqBy/rLMuyZMA0GCSqGSIb3DQEBCwUAMBcxFTATBgNV
+                            BAMTDDk4MTcyMjJhOWZkMTAeFw0xODAyMTkxMTEwNDJaFw0yODAyMTcxMTEwNDJa
+                            MBcxFTATBgNVBAMTDDk4MTcyMjJhOWZkMTCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+                            ADCCAYoCggGBAOaeO4eofV3PgOQejqEjOX4gxJPrzwoFTp4yVUSvtwIR/5tXKl0N
+                            XM71vbiQDLp6PGb3ZsZvIGo3WmoT4Yy3xzggMMd1ozdHUdqGBMz5VwYsnM1rnRrA
+                            S0d/Yw7IcThuD43718R2NluqgHlF5D+ZYqzislOQp1g4HNJ4rT6pNgtJQ+qnb3KN
+                            NKG2Hh4rjuuED+brIUf27N/qSSufu6lF/1St/xfYIqo3iV+awMYRhdBr3GpO7q7r
+                            Gm5crqb0ugGropsKHNLUEQbIM71Y3TBneVjcUS2drzAJ/d1uOERE7robMKfuPedL
+                            Xuh4ZH8Dd9HAcHmRwfj3xj541e7W7g2nuqCbu8AJYoC2NOjpN0gmnXQVoGYeWhQA
+                            aLdqnXoE8M9bfPdNc4YTT3+uPr/TgEN0MQcDsWaIlnAtoAcVr5S5zS7D736ZTYEk
+                            IXO3IPav2gnNhX4ee95y2/a05kLJRZjCjlW0ore/7JRWXMJZd41d5NAMg06HLcaB
+                            pCGK36VcViUSmQIDAQABozowODAXBgNVHREEEDAOggw5ODE3MjIyYTlmZDEwHQYD
+                            VR0OBBYEFGAFRZwbRG6c3J3uro+IiANePjyjMA0GCSqGSIb3DQEBCwUAA4IBgQCV
+                            ygOsNWIajO+DFUJHbzwruFtKc4IwWa6qF1K+CmOULRjFtXX3y7IYrGw7U3JJ2pQY
+                            oZ+D/y5ZJO4sBaZZ64eiVr1rj01VFB7op9yuWrsKT7iVtWgFWeXGYpw6dNZsFt3Q
+                            /e1+CkCGUojhf0ThPyh+yNXBbeaoxr+gCVu163oEcPE7FZHY1q0RDRo7GoXpByYZ
+                            bbQF0ffbtq8PD+pQ9Y21nPknTlxN44cJxY82xDji7SbTEAK81+RZnFCq8/mL9JYG
+                            FfqDUZX9m6dPNHG+2YM53yfj3Tun/pQCYYM09uCb5pMNwBkRWh49z48U6BVejehd
+                            b/MxvzQkMYF9c8S+VtAtaxff1+4iXXgbuNX/Tz6hDRt8KGYQSnq9IFrbt0I/CaTH
+                            sGFUFRR8Uq2dq+16gVXII7CbscjY2dM3gVUkxkY2gwgP9kUBI8dWeOmnL6lCUDkq
+                            s6Ey6SGcgV7BRruXiHOArDMM+wDwEGfNS0sLfc+AYBn2wy2MTlL7ZLF/DmvcGg8=
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://demo.tinglysing.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://demo.tinglysing.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://demo.tinglysing.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity with civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="dateOfBirth" Name="urn:oid:1.3.6.1.5.5.7.9.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="countryOfCitizenship" Name="urn:oid:1.3.6.1.5.5.7.9.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Umhvørvisstovan</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Umhvørvisstovan</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.us.fo/</md:OrganizationURL>
+
+            <md:OrganizationName xml:lang="en">The Environment Agency</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">The Environment Agency</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.us.fo/Default.aspx?ID=13804</md:OrganizationURL>
+        </md:Organization>
+        <ContactPerson contactType="administrative">
+            <Company>Umhvørvisstovan</Company>
+            <SurName>Egeberg Jacobsen</SurName>
+            <EmailAddress>malenej@us.fo</EmailAddress>
+        </ContactPerson>
+        <ContactPerson contactType="technical">
+            <Company>Klintra</Company>
+            <SurName>Lenvig</SurName>
+            <EmailAddress>ble@klintra.fo</EmailAddress>
+        </ContactPerson>
+        <ContactPerson contactType="support">
+            <Company>Klintra</Company>
+            <SurName>Lenvig</SurName>
+            <EmailAddress>ble@klintra.fo</EmailAddress>
+        </ContactPerson>
+
+    </md:EntityDescriptor>
+
+    <!-- ******************* Nemlia **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://nemlia.fo/talvatest">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Nemlia</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Nemlia Talva Test</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Nemlia</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Nemlia Talva Test</mdui:Description>
+
+                    <mdui:Logo height="76" width="240">https://nemlia.fo/static/d1790f484265ed7b8a2010f4e7979b51/5ba9d/nemlia-text-logo.webp</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIFKjCCAxICCQCxCZvdDBijIzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJG
+                            TzELMAkGA1UECAwCTkExCzAJBgNVBAcMAk5BMQswCQYDVQQKDAJOQTELMAkGA1UE
+                            CwwCTkExFDASBgNVBAMMC3Rlc3RjYXNlLXNwMB4XDTE5MTEyMTIyMTYyMVoXDTIw
+                            MTEyMDIyMTYyMVowVzELMAkGA1UEBhMCRk8xCzAJBgNVBAgMAk5BMQswCQYDVQQH
+                            DAJOQTELMAkGA1UECgwCTkExCzAJBgNVBAsMAk5BMRQwEgYDVQQDDAt0ZXN0Y2Fz
+                            ZS1zcDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKV8Ny40aKbMMPI4
+                            VX07VSgZq5WbocxTwpnk097qzWXwf0MsiyBTzHW7QnmZDGXm0Mw7iGMbumb7iUYH
+                            uLWV7fTUXu36uDdstMtZBE1Etf+eSE6PoKLQUzLc/wAcw/er0S6HMIMzEcg9wEQh
+                            KB63F1fZNdR0Nm4pdG5vOVY+LrPyoPo6IEXimdx336m/N8npYh63NSixc9Rz6hcp
+                            +WqTI2A3HRuNE5w/1KUSD32mkXJ4tIXakWwZB2cJ9xtc4KWFK/WUbR+pXv693gMb
+                            10s/S0f4MxzuVQn+4vhdwsrh2EznZdnSDg4H+mGpCVez2azp/JibiIuY/JUTg+dP
+                            YQ7UWAJHUeLI2+I2i/4yJwXkeIfMHVeJd5jvkeGm2C8tOn5nO8341FzQT/YEe732
+                            fOZf8qkk2Ysv98ncwIXsrfixPyY8rKZ1fFqwOwM6wwFLXmInqysRZqvxhG/qWC7O
+                            DI1T8DvTdS01SYmUz8FPlB58vXRHqscN8p4ov+e8l1QCeeFZJM5Sy7RhVV2ttGjD
+                            sV1cX9JfSEuFICOBxcWD9UyU7HyvsWBBcoGy+1DUSCtphf9Qki6rnC/9WNHP+mTB
+                            PRCo47ZmXu7SxY6QvtdNcPuejseVIi7wPoHl1W1iRbhi4Qoc6SHU2sJc7Dk8v2j9
+                            lX88k1ihx0rQI8+D3v7+lsusibIvAgMBAAEwDQYJKoZIhvcNAQELBQADggIBACLQ
+                            9DmrMLJIQztb8fqSBsknl9Ne4kYQvG9B3hp+eNS3mZXpSbmbrmSXvAmOx6ROJwkK
+                            NTeBVY8Jplnv0qYMpC0nuNo1ABMKYQeQunolElUipZA7ja1ucT/RDz6A2zQcDhwn
+                            sNQ5CABgBwxPVuXRHK3zKWUVidVYRb3PpnmAUlWoNAnIZ2fyXjQNExhefF/9cquV
+                            rLQ5tKMeW/lGni+v2x/1FBZg53dmpO0EfQbVP6hEYB9jg8yOR13bsFV6ilsw0/Bd
+                            KYRlar6E6xH5lHo7pOqivJTyBD6uBs2OssKSREfr3yZm7+1qCK0jqcdkswWa5FWG
+                            9llnM6tmHRVwo8Cydit9SPW23k7+EDFUI9miGyT1zEl6/vk4Xsfskj9CVB26BKrB
+                            3r7cn84sPrSVi/xw9SIdEOc8yE7IWV93JQucyH3Z2kTQbu/i/oeCMImkzLH5KWje
+                            Z3vLXcJpMhFIfqhY145cbB+Rs7927uEQ40T9otm2yc0qhp2Xz9sMgT0clF8iTTH4
+                            8v0Dk6S2GYWViNZXT10ZTbsjLBYE4Uc9KPBfXsIchjQitF7vTPsW9omJo5MQtZ5n
+                            wSxsXLgiBSkjT11jPzxZysADmDZ4R8trzS4mosNXTwb/gQLJFcLs7pGjsONzX61g
+                            RCX5eE3zXiZDiY1qNdbqp+nicIebNe6nv0sUAeYn
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://talvatest.nemlia.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://talvatest.nemlia.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://talvatest.nemlia.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:1.3.6.1.5.5.7.9.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:1.3.6.1.5.5.7.9.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Nemlia Talva</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Nemlia Talva</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://nemlia.fo</md:OrganizationURL>
+
+            <md:OrganizationName xml:lang="en">Nemlia Talva</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Nemlia Talva</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://nemlia.fo</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <!-- ******************* SDC **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://testbank1.samleiki.sdc.eu/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">SDC Testbank 1</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">SDC Testbank 1</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">SDC Testbank 1</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">SDC Testbank 1</mdui:Description>
+
+                    <mdui:Logo height="40" width="114">https://www.sdc.dk/dist/assets/gfx/sdc-logo-color.svg</mdui:Logo>
+                </mdui:UIInfo>
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIEpDCCAowCCQC5+8cdWpU8OjANBgkqhkiG9w0BAQsFADAUMRIwEAYDVQQDDAlz
+                            ZGMtdGVzdDEwHhcNMjAxMTE5MTIyMzMxWhcNMzAxMTE3MTIyMzMxWjAUMRIwEAYD
+                            VQQDDAlzZGMtdGVzdDEwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCj
+                            a6Ato7hiuM2izdoua3S+U64buNUd84jo2fouLyHxvAhUcc+MQNFBHAdLxbFrdsf2
+                            qDq62k/kGtF5G7ELfDFqnwfzftVh4UOTyJEEv03HJcutGApL08+OwCcavdyBAT65
+                            BiPUef2ZOU9p8++uYtFBuIY5Zw1ZRd49XX+bT2cGXqV2q/wpVOP0dTvbeyXbzsTD
+                            wQSawjMH/KuZAiHSc2H4pXpCmgPCONSNqVS3LG6VTMfE68bVZI+4uzLHjTAXGzzM
+                            5b85GSqugm6M9eSUQ+2fEs92UjCcQhF4GpSILd1glY/kL+PVfFGcXq2kq7uzyxf2
+                            obLHMwKmTj+XOHH0tmSiS/j7frsBFrz8Ff7nhwUvFqUzRCR+crRg/FhDR/WyOx6O
+                            C/9Ra2C9W54BdchLGACPwVhmu3o2CDXV/IuBtXbdlSohXoe6TxLk62FOp5dqWDQC
+                            qVBcRtp6ghtflcr38wX5eCkXrUYBufmkQcwAAsdImdoKFD3TMn0yb4kb8I5eAb9i
+                            Tm0LfVco+ZhJ91H0qCZrgSzhVyCgD9yyHKl915p4LOtGl8LP1ZYmnUliIJRQ+GQ0
+                            lMEQLdTJ31gkGSxg6ADN1mloSUkkKB0q9TTunRDjx4WeeYzioRooWHdLHoHU3cGx
+                            m8fh/O7tAR0EKJ69tkkZ7CQ6CKGDddYx3hKccnIREwIDAQABMA0GCSqGSIb3DQEB
+                            CwUAA4ICAQCNr4M4LpY4WdKD8GpFb9SDPOOaJ8joyrJaktpbyeIwDM8SF4EeAXBU
+                            GV7B8Pc6PlnTQ7VxugqP4Wn0NrLDdW20nT/6cKLJa/osmntn8XJndxG5ZK/HZ0eN
+                            2YBdwAGa+1D53aDrWC+7NpfWITUeWOspNdVkBgfsaaih8z4YW7ZdwdPyk24rW1jt
+                            TVO9HvDjdJRdDW5xIC+mxsq+8hjitbn+NhlPQZg0Z0YHLbj4xJGYn3y6wVWg72mj
+                            EI2YvpiJ9tqqhJm7naAoGM0CB+YTNIsMYsbKROCUU7EyQ2fZ1uimqqk59x23bpzF
+                            e7JjjSBGtaHwsSiV0e9pUStgmPcrslyEUok4VMhua/LymkAHn7diR3HfuQRQ4jGq
+                            5Tua8pRULNDeavhAViEL2HKSIv+QDik02VkP+sBDFDpugW3lhF1KGFh4DRyAy721
+                            0gtxVbqL0D1OTtBtlJ/pKJ8UzEDhyAQnEBrNWsbuRFoEEXm5uLXhbt4UoTAih3Ly
+                            JoaicqdUFnvpPII8jfh/1Rp42rWGAA3g6YbCeQFYqf3bYwTWIqsxtfBDY256lPay
+                            oQkZ5EwhUFw1S8hLZVUSpqsA7RX/y15TkAzEH3TdTQFo20EzA6dfC7qLspQEsdSt
+                            AVjZx8LVrW9a28E524NGVJYTDvhaR3Uz53oYkB0eW2kpXMY3T6J0XA==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://testbank1.samleiki.sdc.eu/Shibboleth.sso/SLO/Redirect"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://testbank1.samleiki.sdc.eu/Shibboleth.sso/SLO/POST"/>
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://testbank1.samleiki.sdc.eu/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Natural Personal Identity with Civic Registration Number</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">SDC A/S</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">SDC A/S</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.sdc.dk</md:OrganizationURL>
+
+            <md:OrganizationName xml:lang="en">SDC A/S</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">SDC A/S</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://https://www.sdc.dk/en</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://testbank2.samleiki.sdc.eu/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">SDC Testbank 2</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">SDC Testbank 2</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">SDC Testbank 2</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">SDC Testbank 2</mdui:Description>
+
+                    <mdui:Logo height="40" width="114">https://www.sdc.dk/dist/assets/gfx/sdc-logo-color.svg</mdui:Logo>
+                </mdui:UIInfo>
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIEpDCCAowCCQC5+8cdWpU8OjANBgkqhkiG9w0BAQsFADAUMRIwEAYDVQQDDAlz
+                            ZGMtdGVzdDEwHhcNMjAxMTE5MTIyMzMxWhcNMzAxMTE3MTIyMzMxWjAUMRIwEAYD
+                            VQQDDAlzZGMtdGVzdDEwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCj
+                            a6Ato7hiuM2izdoua3S+U64buNUd84jo2fouLyHxvAhUcc+MQNFBHAdLxbFrdsf2
+                            qDq62k/kGtF5G7ELfDFqnwfzftVh4UOTyJEEv03HJcutGApL08+OwCcavdyBAT65
+                            BiPUef2ZOU9p8++uYtFBuIY5Zw1ZRd49XX+bT2cGXqV2q/wpVOP0dTvbeyXbzsTD
+                            wQSawjMH/KuZAiHSc2H4pXpCmgPCONSNqVS3LG6VTMfE68bVZI+4uzLHjTAXGzzM
+                            5b85GSqugm6M9eSUQ+2fEs92UjCcQhF4GpSILd1glY/kL+PVfFGcXq2kq7uzyxf2
+                            obLHMwKmTj+XOHH0tmSiS/j7frsBFrz8Ff7nhwUvFqUzRCR+crRg/FhDR/WyOx6O
+                            C/9Ra2C9W54BdchLGACPwVhmu3o2CDXV/IuBtXbdlSohXoe6TxLk62FOp5dqWDQC
+                            qVBcRtp6ghtflcr38wX5eCkXrUYBufmkQcwAAsdImdoKFD3TMn0yb4kb8I5eAb9i
+                            Tm0LfVco+ZhJ91H0qCZrgSzhVyCgD9yyHKl915p4LOtGl8LP1ZYmnUliIJRQ+GQ0
+                            lMEQLdTJ31gkGSxg6ADN1mloSUkkKB0q9TTunRDjx4WeeYzioRooWHdLHoHU3cGx
+                            m8fh/O7tAR0EKJ69tkkZ7CQ6CKGDddYx3hKccnIREwIDAQABMA0GCSqGSIb3DQEB
+                            CwUAA4ICAQCNr4M4LpY4WdKD8GpFb9SDPOOaJ8joyrJaktpbyeIwDM8SF4EeAXBU
+                            GV7B8Pc6PlnTQ7VxugqP4Wn0NrLDdW20nT/6cKLJa/osmntn8XJndxG5ZK/HZ0eN
+                            2YBdwAGa+1D53aDrWC+7NpfWITUeWOspNdVkBgfsaaih8z4YW7ZdwdPyk24rW1jt
+                            TVO9HvDjdJRdDW5xIC+mxsq+8hjitbn+NhlPQZg0Z0YHLbj4xJGYn3y6wVWg72mj
+                            EI2YvpiJ9tqqhJm7naAoGM0CB+YTNIsMYsbKROCUU7EyQ2fZ1uimqqk59x23bpzF
+                            e7JjjSBGtaHwsSiV0e9pUStgmPcrslyEUok4VMhua/LymkAHn7diR3HfuQRQ4jGq
+                            5Tua8pRULNDeavhAViEL2HKSIv+QDik02VkP+sBDFDpugW3lhF1KGFh4DRyAy721
+                            0gtxVbqL0D1OTtBtlJ/pKJ8UzEDhyAQnEBrNWsbuRFoEEXm5uLXhbt4UoTAih3Ly
+                            JoaicqdUFnvpPII8jfh/1Rp42rWGAA3g6YbCeQFYqf3bYwTWIqsxtfBDY256lPay
+                            oQkZ5EwhUFw1S8hLZVUSpqsA7RX/y15TkAzEH3TdTQFo20EzA6dfC7qLspQEsdSt
+                            AVjZx8LVrW9a28E524NGVJYTDvhaR3Uz53oYkB0eW2kpXMY3T6J0XA==
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://testbank2.samleiki.sdc.eu/Shibboleth.sso/SLO/Redirect"/>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://testbank2.samleiki.sdc.eu/Shibboleth.sso/SLO/POST"/>
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://testbank2.samleiki.sdc.eu/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Natural Personal Identity with Civic Registration Number</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">SDC A/S</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">SDC A/S</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.sdc.dk</md:OrganizationURL>
+
+            <md:OrganizationName xml:lang="en">SDC A/S</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">SDC A/S</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://https://www.sdc.dk/en</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <!-- ******************* Effo **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://effo.test.klintra.fo/">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">Effo</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Føroya Orkufelag</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">Effo</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Faroese Energycompany</mdui:Description>
+
+                    <mdui:Logo height="190" width="90">https://www.effo.fo/wp-content/themes/beak-effo/images/footer-logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=effo</ds:X509SubjectName>
+                        <ds:X509Certificate>MIIFhjCCA24CCQDR24yjHgegfDANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMC
+                            Rk8xFDASBgNVBAcMC1TDg8KzcnNoYXZuMQ0wCwYDVQQKDARFZmZvMRMwEQYDVQQL
+                            DApLVC1EZWlsZGluMR4wHAYDVQQDDBVlZmZvLnRlc3Qua2xpbnRyYS5jb20xGzAZ
+                            BgkqhkiG9w0BCQEWDGVmZm9AZWZmby5mbzAeFw0yMTAxMTIxMjAwNTVaFw0yNjAx
+                            MTExMjAwNTVaMIGEMQswCQYDVQQGEwJGTzEUMBIGA1UEBwwLVMODwrNyc2hhdm4x
+                            DTALBgNVBAoMBEVmZm8xEzARBgNVBAsMCktULURlaWxkaW4xHjAcBgNVBAMMFWVm
+                            Zm8udGVzdC5rbGludHJhLmNvbTEbMBkGCSqGSIb3DQEJARYMZWZmb0BlZmZvLmZv
+                            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqz1NuQidxs69Ol8K9x85
+                            lV/KXagKc3QX05KR4x+scGi1v6QqUNiiilI04rWrUs+854x3MOrxqhVDwgKnBC60
+                            88XRlgRqE/Xd7AG6HNkIo5AsoAVeqAbH3nq7ezeRkwF94QDjEF7+kwMLa4SFdHfA
+                            mTTpVzfMdEC9fqfr0vgJjZ5y5xctHQKhh1U2MSMpiZRF1pekWnM0RAgVsHF8IAtf
+                            uOG2JK1ITsL1dbrNmkyJWLaq8GdH2Y90QK3G6QoszBSouEACzFECerOGNnnRBVrS
+                            04T63OR+XpQp9TdUoPOldcySQUtLmka2lSScV7WqtwTFWtpSzTUcwmmimycNzvWe
+                            4xWnwW77GEu1k5kvJO3AcFfcqODlZMlPr0GOEdvOXaHyvbHs5xuSqr7O+gU8mmEn
+                            MizdA+KoBQ2wut1G7QJaqn9Qcgy8IrIM5P/9/9nxhPvJWQul4haD1oxNUZUz6o1I
+                            APbmqTMSiii7v1g/xsTndo8k4FjR2kRPJiJUrNbOc5tzH9yTkMo+4CEVSdaZB2vz
+                            /UP0Gk1bA0QcaUQdkOS+X4RLRYnSk8rC7oKe6NFdBt98ibGiatO7tvOvN/8IFNXp
+                            9yLQB/s3lqaucRfPpvPClg7ohJUbQpThg2Hmpm3RY0DdX0p4speX3PWno5mQizPX
+                            AB9jxXQf2eVvwk80ImlgQDkCAwEAATANBgkqhkiG9w0BAQsFAAOCAgEARkEP4MG7
+                            2+JT8VG4ImNV5CmRt4P+S7mvaIvUrkVCMAX1uigC3w0PzfK65QXIaskeV+AABFW+
+                            QvMsSSkHOVffYJBB0Vq4nkdbOqfIqnlwcQnpvYhaVjW6hdBh0TaEcTAqPRG5uNsr
+                            MjDcXQBUXs50F+szZY+7erMHcezChVtabS3JdaUzFC6q5iPUR5vzvmm2z93gt4+D
+                            UfYnxO9OaV6jdUqOX2ulI5utGGQjzqoAVV6VxHppHv7e4je6Mre+d/uV+1/H4F01
+                            USIMjP/UUkqQl18zeGQpAGEzo92oLPkMCEdLS1ZbvQPatJdDn8S5mDZPmQXoouMc
+                            MgPkjqHC9r+9HR4Gn46d5u8Ox14JNc9vVrAIKLLSqjRvsikZCWj8N4IU0unOQnf9
+                            Ea9gv4yhLYT8rg6jxatx7+vFmdfbPcjVcE7YgBNzmmLIZwTbwhrRetb3uriyIfFG
+                            rgNrcq3+f6CQM9njaO4PmSVb/LHRqpAByWE6C5pbNSKKdEpCynPOs+6nKJi6IDb4
+                            M3qd7qb8IaZ6aovHXgLrUV5lPnFrEivIE8S/E7F95QLjpcGWbkV8D4otxCtZ16RD
+                            xWnGAWjfzoMkfo9s0FqAwnRK6AnD1E+f1cK3vkr5jVXE/hjLd+4aSZV3piezm8vQ
+                            ksLxSLPK15cbvZF/+vMPmlB0K5EErzyTF80=
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://effo.test.klintra.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://effo.test.klintra.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://effo.test.klintra.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-NaturalPerson-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Effo</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Føroya Orkufelag</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://effo.test.klintra.fo/</md:OrganizationURL>
+
+            <md:OrganizationName xml:lang="en">Effo</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Faroese Energycompany</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://effo.test.klintra.fo/</md:OrganizationURL>
+        </md:Organization>
+        <ContactPerson contactType="administrative">
+            <Company>Effo</Company>
+            <GivenName>Bjarni Joensen</GivenName>
+            <EmailAddress>bjo@effo.fo</EmailAddress>
+            <TelephoneNumber>343537</TelephoneNumber>
+        </ContactPerson>
+        <ContactPerson contactType="technical">
+            <Company>Klintra</Company>
+            <GivenName>Eyðun E. Jacobsen</GivenName>
+            <EmailAddress>eej@klintra.fo</EmailAddress>
+            <TelephoneNumber>794288</TelephoneNumber>
+        </ContactPerson>
+        <ContactPerson contactType="support">
+            <Company>Effo</Company>
+            <GivenName>Bjarni Joensen</GivenName>
+            <EmailAddress>bjo@effo.fo</EmailAddress>
+            <TelephoneNumber>343537</TelephoneNumber>
+        </ContactPerson>
+
+    </md:EntityDescriptor>
+
+    <!-- ******************* pwademo **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://pwademo.klintra.fo">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">PWA Demo</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">PWA Demo</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">PWA Demo</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">PWA Demo</mdui:Description>
+
+                    <mdui:Logo height="46" width="203">https://pwademo.klintra.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>9817222a9fd1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=9817222a9fd1</ds:X509SubjectName>
+                        <ds:X509Certificate>MIID6zCCAlOgAwIBAgIJAPqBy/rLMuyZMA0GCSqGSIb3DQEBCwUAMBcxFTATBgNV
+                            BAMTDDk4MTcyMjJhOWZkMTAeFw0xODAyMTkxMTEwNDJaFw0yODAyMTcxMTEwNDJa
+                            MBcxFTATBgNVBAMTDDk4MTcyMjJhOWZkMTCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+                            ADCCAYoCggGBAOaeO4eofV3PgOQejqEjOX4gxJPrzwoFTp4yVUSvtwIR/5tXKl0N
+                            XM71vbiQDLp6PGb3ZsZvIGo3WmoT4Yy3xzggMMd1ozdHUdqGBMz5VwYsnM1rnRrA
+                            S0d/Yw7IcThuD43718R2NluqgHlF5D+ZYqzislOQp1g4HNJ4rT6pNgtJQ+qnb3KN
+                            NKG2Hh4rjuuED+brIUf27N/qSSufu6lF/1St/xfYIqo3iV+awMYRhdBr3GpO7q7r
+                            Gm5crqb0ugGropsKHNLUEQbIM71Y3TBneVjcUS2drzAJ/d1uOERE7robMKfuPedL
+                            Xuh4ZH8Dd9HAcHmRwfj3xj541e7W7g2nuqCbu8AJYoC2NOjpN0gmnXQVoGYeWhQA
+                            aLdqnXoE8M9bfPdNc4YTT3+uPr/TgEN0MQcDsWaIlnAtoAcVr5S5zS7D736ZTYEk
+                            IXO3IPav2gnNhX4ee95y2/a05kLJRZjCjlW0ore/7JRWXMJZd41d5NAMg06HLcaB
+                            pCGK36VcViUSmQIDAQABozowODAXBgNVHREEEDAOggw5ODE3MjIyYTlmZDEwHQYD
+                            VR0OBBYEFGAFRZwbRG6c3J3uro+IiANePjyjMA0GCSqGSIb3DQEBCwUAA4IBgQCV
+                            ygOsNWIajO+DFUJHbzwruFtKc4IwWa6qF1K+CmOULRjFtXX3y7IYrGw7U3JJ2pQY
+                            oZ+D/y5ZJO4sBaZZ64eiVr1rj01VFB7op9yuWrsKT7iVtWgFWeXGYpw6dNZsFt3Q
+                            /e1+CkCGUojhf0ThPyh+yNXBbeaoxr+gCVu163oEcPE7FZHY1q0RDRo7GoXpByYZ
+                            bbQF0ffbtq8PD+pQ9Y21nPknTlxN44cJxY82xDji7SbTEAK81+RZnFCq8/mL9JYG
+                            FfqDUZX9m6dPNHG+2YM53yfj3Tun/pQCYYM09uCb5pMNwBkRWh49z48U6BVejehd
+                            b/MxvzQkMYF9c8S+VtAtaxff1+4iXXgbuNX/Tz6hDRt8KGYQSnq9IFrbt0I/CaTH
+                            sGFUFRR8Uq2dq+16gVXII7CbscjY2dM3gVUkxkY2gwgP9kUBI8dWeOmnL6lCUDkq
+                            s6Ey6SGcgV7BRruXiHOArDMM+wDwEGfNS0sLfc+AYBn2wy2MTlL7ZLF/DmvcGg8=
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://pwademo.klintra.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pwademo.klintra.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pwademo.klintra.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-NaturalPerson-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Personal identity without civic registration number attribute set</md:ServiceDescription>
+                <md:RequestedAttribute Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:1.3.6.1.5.5.7.9.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:1.3.6.1.5.5.7.9.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://www.talgildu.fo/</md:OrganizationURL>
+
+
+            <md:OrganizationName xml:lang="en">Talgildu Føroyar</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">Talgildu Føroyar</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://www.talgildu.fo/</md:OrganizationURL>
+        </md:Organization>
+    </md:EntityDescriptor>
+
+    <!-- ******************* DGC **************************** -->
+
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://test.dgc.fo/shibboleth">
+        <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <Extensions>
+                <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                    <mdui:DisplayName xml:lang="fo">DGC</mdui:DisplayName>
+                    <mdui:Description xml:lang="fo">Corona pass</mdui:Description>
+
+                    <mdui:DisplayName xml:lang="en">DGC</mdui:DisplayName>
+                    <mdui:Description xml:lang="en">Corona pass</mdui:Description>
+
+                    <mdui:Logo height="100" width="150">https://pwademo.klintra.fo/images/logo.png</mdui:Logo>
+                </mdui:UIInfo>
+
+            </Extensions>
+            <md:KeyDescriptor>
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:KeyName>9817222a9fd1</ds:KeyName>
+                    <ds:X509Data>
+                        <ds:X509SubjectName>CN=9817222a9fd1</ds:X509SubjectName>
+                        <ds:X509Certificate>MIID6zCCAlOgAwIBAgIJAPqBy/rLMuyZMA0GCSqGSIb3DQEBCwUAMBcxFTATBgNV
+                            BAMTDDk4MTcyMjJhOWZkMTAeFw0xODAyMTkxMTEwNDJaFw0yODAyMTcxMTEwNDJa
+                            MBcxFTATBgNVBAMTDDk4MTcyMjJhOWZkMTCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+                            ADCCAYoCggGBAOaeO4eofV3PgOQejqEjOX4gxJPrzwoFTp4yVUSvtwIR/5tXKl0N
+                            XM71vbiQDLp6PGb3ZsZvIGo3WmoT4Yy3xzggMMd1ozdHUdqGBMz5VwYsnM1rnRrA
+                            S0d/Yw7IcThuD43718R2NluqgHlF5D+ZYqzislOQp1g4HNJ4rT6pNgtJQ+qnb3KN
+                            NKG2Hh4rjuuED+brIUf27N/qSSufu6lF/1St/xfYIqo3iV+awMYRhdBr3GpO7q7r
+                            Gm5crqb0ugGropsKHNLUEQbIM71Y3TBneVjcUS2drzAJ/d1uOERE7robMKfuPedL
+                            Xuh4ZH8Dd9HAcHmRwfj3xj541e7W7g2nuqCbu8AJYoC2NOjpN0gmnXQVoGYeWhQA
+                            aLdqnXoE8M9bfPdNc4YTT3+uPr/TgEN0MQcDsWaIlnAtoAcVr5S5zS7D736ZTYEk
+                            IXO3IPav2gnNhX4ee95y2/a05kLJRZjCjlW0ore/7JRWXMJZd41d5NAMg06HLcaB
+                            pCGK36VcViUSmQIDAQABozowODAXBgNVHREEEDAOggw5ODE3MjIyYTlmZDEwHQYD
+                            VR0OBBYEFGAFRZwbRG6c3J3uro+IiANePjyjMA0GCSqGSIb3DQEBCwUAA4IBgQCV
+                            ygOsNWIajO+DFUJHbzwruFtKc4IwWa6qF1K+CmOULRjFtXX3y7IYrGw7U3JJ2pQY
+                            oZ+D/y5ZJO4sBaZZ64eiVr1rj01VFB7op9yuWrsKT7iVtWgFWeXGYpw6dNZsFt3Q
+                            /e1+CkCGUojhf0ThPyh+yNXBbeaoxr+gCVu163oEcPE7FZHY1q0RDRo7GoXpByYZ
+                            bbQF0ffbtq8PD+pQ9Y21nPknTlxN44cJxY82xDji7SbTEAK81+RZnFCq8/mL9JYG
+                            FfqDUZX9m6dPNHG+2YM53yfj3Tun/pQCYYM09uCb5pMNwBkRWh49z48U6BVejehd
+                            b/MxvzQkMYF9c8S+VtAtaxff1+4iXXgbuNX/Tz6hDRt8KGYQSnq9IFrbt0I/CaTH
+                            sGFUFRR8Uq2dq+16gVXII7CbscjY2dM3gVUkxkY2gwgP9kUBI8dWeOmnL6lCUDkq
+                            s6Ey6SGcgV7BRruXiHOArDMM+wDwEGfNS0sLfc+AYBn2wy2MTlL7ZLF/DmvcGg8=
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test.dgc.fo/Shibboleth.sso/SLO/Redirect"/>
+
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.dgc.fo/Shibboleth.sso/SLO/POST"/>
+
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+
+            <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.dgc.fo/Shibboleth.sso/SAML2/POST" index="1"/>
+
+            <md:AttributeConsumingService index="1">
+                <md:ServiceName xml:lang="en">TS-AP-Pnr-01</md:ServiceName>
+                <md:ServiceDescription xml:lang="en">Natural Personal Identity with Civic Registration Number</md:ServiceDescription>
+                <md:RequestedAttribute FriendlyName="SubjectID" Name="urn:oasis:names:tc:SAML:attribute:subject-id" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="sn" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="personalIdentityNumber" Name="urn:oid:1.2.208.189.1.2.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+                <md:RequestedAttribute FriendlyName="dateOfBirth" Name="urn:oid:1.3.6.1.5.5.7.9.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+            </md:AttributeConsumingService>
+
+        </md:SPSSODescriptor>
+        <md:Organization>
+            <md:OrganizationName xml:lang="fo">Landssjúkrahúsið</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="fo">Landssjúkrahúsið (LS)</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="fo">https://ls.fo</md:OrganizationURL>
+
+
+            <md:OrganizationName xml:lang="en">National Hospital of the Faroe Islands</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="en">National Hospital of the Faroe Islands</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="en">https://sv.ls.fo/?L=EN</md:OrganizationURL>
+        </md:Organization>
+        <ContactPerson contactType="administrative">
+            <Company>Landssjúkrahúsið</Company>
+            <GivenName>Ingi</GivenName>
+            <SurName>Mittún</SurName>
+            <TelephoneNumber>+298 211828</TelephoneNumber>
+        </ContactPerson>
+        <ContactPerson contactType="technical">
+            <Company>Smyrilline</Company>
+            <GivenName>Theodor</GivenName>
+            <SurName>Sólbjørg</SurName>
+            <EmailAddress>theos@smyrilline.fo</EmailAddress>
+            <TelephoneNumber>+298 788188</TelephoneNumber>
+        </ContactPerson>
+        <ContactPerson contactType="support">
+            <Company>Smyrilline</Company>
+            <GivenName>Theodor</GivenName>
+            <SurName>Sólbjørg</SurName>
+            <EmailAddress>theos@smyrilline.fo</EmailAddress>
+            <TelephoneNumber>+298 788188</TelephoneNumber>
+        </ContactPerson>
+    </md:EntityDescriptor>
+
+</EntitiesDescriptor>
